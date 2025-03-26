@@ -1,70 +1,69 @@
-Laboratório 1;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
+Laboratório 1;;Coordenador: Marília Davoli;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-PI II - 2ADM;;;PI I - 1 MKT;;7h10 - 8h00
-Luciane;;;Paula;;
-PI II - 2ADM;;;PI I - 1 MKT;;8h00 - 8h50
-Luciane;;;Paula;;
-AI - 2ADM;PDTCC - 3 ADM;;PI I - 1 MKT;;8h50 - 9h40
-Neto;Hemilie;;Paula;;
-AI - 2ADM;PDTCC - 3 ADM;;PI I - 1 MKT;;10h00 - 10h50
-Neto;Hemilie;;Paula;;
-DAMPC - 1 ADM;;PORDP - 2 ADM;PI I - 1 ADM;;10h50 - 11h40
-Leticia;;Emerson;Rodrigo;;
-DAMPC - 1 ADM;;PORDP - 2 ADM;PI I - 1 ADM;;11h40- 12h30
-Leticia;;Emerson;Rodrigo;;
-Laboratório 2;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
+COMP. NUVEM - 3º INF;;PDTCC - 3º INF;P.A. - 1º INF;;13h - 13h50
+Gabriela;;Neto;Neto;;
+COMP. NUVEM - 3º INF;;PDTCC - 3º INF;P.A. - 1º INF;;13h50 - 14h40
+Gabriela;;Neto;Neto;;
+PDTCC - 3º INF;;PDTCC - 3º INF;P.A. - 1º INF;;14h40 - 15h30
+Neto;;Neto;Neto;;
+;;;;;15h50 - 16h40
+;;;;;
+;BANCO DE DADOS - 2º INF;;;;16h40 - 17h30
+;Reginaldo;;;;
+;BANCO DE DADOS - 2º INF;;;;17h30 - 18h20
+;Reginaldo;;;;
+Laboratório 2;;Coordenador: Marília Davoli;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-;;;;;7h10 - 8h00
-;;;;;
-IAM - 2° MKT;;;;;8h00 - 8h50
-Sérgio;;;;;
-IAM - 2° MKT;TI - 3° ADM;;;IAM - 2° MKT;8h50 - 9h40
-Sérgio;Sérgio;;;Sérgio;
-IAM - 2° MKT;TI - 3° ADM;DMN - 3° ADM;;IAM - 2° MKT;10h00 - 10h50
-Sérgio;Sérgio;Luciane;;Sérgio;
-;;DMN - 3° ADM;DMN - 3° ADM;IAM - 2° MKT;10h50 - 11h40
-;;Luciane;Luciane;Sérgio;
-;;;DMN - 3° ADM;;11h40- 12h30
-;;;Luciane;;
-Laboratório 3;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
+F.I - 1º INF;;A.D. - 1º INF;;D.D.M II - 3º INF;13h - 13h50
+Neto;;Gabriela;;Thamires;
+F.I - 1º INF;;A.D. - 1º INF;;D.D.M II - 3º INF;13h50 - 14h40
+Neto;;Gabriela;;Thamires;
+D.D.M - 2º INF;S.W I  - 2º INF;A.D. - 1º INF;D.D.M II - 3º INF;COMP. NUVEM - 3º INF;14h40 - 15h30
+Flávio;Flávio;Gabriela;Flávio;Gabriela;
+D.D.M - 2º INF;S.W I - 2º INF;A.D. - 1º INF;;COMP. NUVEM - 3º INF;15h50 - 16h40
+Flávio;Flávio;Gabriela;;Gabriela;
+;D.D.M II  - 3º INF;I.W. - 1º INF;S.W.I - 2º INF;D.D.M - 2º INF;16h40 - 17h30
+;Flávio;Gabriela;Flávio;Flávio;
+;D.D.M II - 3º INF;I.W. - 1º INF;S.W.I - 2º INF;D.D.M - 2º INF;17h30 - 18h20
+;Flávio;Gabriela;Flávio;Flávio;
+Laboratório 3;;Coordenador: Marília Davoli;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-AI - 2ADM;;;IA - 1 MKT;;7h10 - 8h00
-Neto;;;Neto;;
-AI - 2ADM;;;IA - 1 MKT;;8h00 - 8h50
-Neto;;;Neto;;
-PI II - 2ADM;;;IA - 1 MKT;;8h50 - 9h40
-Luciane;;;Neto;;
-PI II - 2ADM;;;IA - 1 MKT;;10h00 - 10h50
-Luciane;;;Neto;;
-PI I - 1ADM;;PORDP - 2 ADM;PI I - 1 ADM;;10h50 - 11h40
-Elaine;;Wesley;Leandro;;
-PI I - 1ADM;;PORDP - 2 ADM;PI I - 1 ADM;;11h40- 12h30
-Elaine;;Wesley;Leandro;;
-Laboratório 4;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
+;;;P.A. - 1º INF;;13h - 13h50
+;;;Gabriela;;
+;;USAB. E A.DIG - 3º INF;P.A. - 1º INF;;13h50 - 14h40
+;;Thamires;Gabriela;;
+;;USAB. E A.DIG - 3º INF;P.A. - 1º INF;;14h40 - 15h30
+;;Thamires;Gabriela;;
+;;;;;15h50 - 16h40
+;;;;;
+; S.W II - 3º INF;;;;16h40 - 17h30
+;Alexon;;;;
+; S.W II - 3º INF;;;;17h30 - 18h20
+;Alexon;;;;
+Laboratório 4;;Coordenador: Marília Davoli;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-;;;;;7h10 - 8h00
-;;;;;
-PI II - 2° MKT;;;;;8h00 - 8h50
-Letícia;;;;;
-PI II - 2° MKT;;;;PI II - 2° MKT;8h50 - 9h40
-Letícia;;;;Leticia;
-PI II - 2° MKT;Turma Online;;Turma Online;PI II - 2° MKT;10h00 - 10h50
-Letícia;Leandro;;Leandro;Leticia;
-;;;TI - 3° ADM;PI II - 2° MKT;10h50 - 11h40
-;;;Sérgio;Leticia;
-;;;TI - 3° ADM;;11h40- 12h30
-;;;Sérgio;;
-Laboratório 5;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
+I W - 1º INF;;1º INF;;D.D.M II - 3º INF;13h - 13h50
+Reginaldo;;Alexon;;Alexon;
+I W - 1º INF;;1º INF;;D.D.M II - 3º INF;13h50 - 14h40
+Reginaldo;;Alexon;;Alexon;
+BANCO DE DADOS - 2º INF;Comp. em Nuvem - 2º INF;1º INF;D.D.M II - 3º INF;S.W II - 3º INF;14h40 - 15h30
+Reginaldo;Gabriela;Alexon;Alexon;Alexon;
+BANCO DE DADOS - 2º INF;Comp. em Nuvem - 2º INF;1º INF;;S.W II - 3º INF;15h50 - 16h40
+Reginaldo;Gabriela;Alexon;;Alexon;
+;I.W II - 2º INF;1º INF;I.W II - 2º INF;Comp. em Nuvem - 2º INF;16h40 - 17h30
+;Gabriela;Alexon;Gabriela;Gabriela;
+;I.W II - 2º INF;1º INF;I.W II - 2º INF;Comp. em Nuvem - 2º INF;17h30 - 18h20
+;Gabriela;Alexon;Gabriela;Gabriela;
+Laboratório 5;;Coordenador: Marília Davoli;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-;;;;;7h10 - 8h00
+;;;;;13h - 13h50
 ;;;;;
-;;;;;8h00 - 8h50
+;;;;;13h50 - 14h40
 ;;;;;
-;;;;;8h50 - 9h40
+;;;;;14h40 - 15h30
 ;;;;;
-;;PDTCC - 3 ADM;;;10h00 - 10h50
-;;Hemilie;;;
-;;PDTCC - 3 ADM;Disciplina 3° ADM;;10h50 - 11h40
-;;Hemilie;Thamires;;
-;;;Disciplina 3° ADM;;11h40- 12h30
-;;;Thamires;;
+;;;;;15h50 - 16h40
+;;;;;
+;;;;;16h40 - 17h30
+;;;;;
+;;;;;17h30 - 18h20
