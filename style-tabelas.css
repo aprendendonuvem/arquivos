@@ -1,0 +1,19 @@
+body {font-family: Arial, sans-serif;background-color: #121212;color: white;margin: 20px;}
+        .container {display: flex;flex-wrap: wrap;/* flex-direction: column; */gap: 20px;}
+        .periodo {background-color: #1e1e1e;padding: 10px;border-radius: 8px;box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);}
+        .salas {display: flex;flex-wrap: wrap;gap: 10px;justify-content: flex-start;}
+        .sala {background-color: #2a2a2a;padding: 10px;border-radius: 8px;box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);flex: 1 1 calc(25% - 10px);
+            min-width: 350px;max-width: 350px;box-sizing: border-box;}
+        table {width: 100%;border-collapse: collapse;}
+        th, td {border: 1px solid #555;padding: 8px;text-align: left;font-size: 14px;}
+        th {background-color: #333;        }
+        .floating-label {position: fixed;top: 20px;background-color: #1e1e1e;padding: 10px;
+        border-radius: 8px;box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);font-size: 14px;}
+        .primeiro{ left: 20px; }
+        .segundo{ left: 150px; }
+        .terceiro{ left: 260px; }
+        .quarto{ left: 430px; }
+        .floating-back {    position: fixed;top: 20px;left: 620px;background-color: #1e1e1e;padding: 10px;border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);font-size: 14px;}
+        .floating-back a {color: white;text-decoration: none;font-weight: bold;}
+        .floating-back a:hover {color: #ddd;}
