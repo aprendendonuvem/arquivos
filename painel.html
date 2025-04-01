@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Alocação</title>
+    <style>
+        /* Estilo geral */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7fb;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            flex-direction: column;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            color: #0057b8;
+            margin-bottom: 20px;
+        }
+
+        /* Container geral */
+        .container {
+            display: flex;
+            flex-direction: column; /* Organizar as seções em colunas */
+            gap: 30px; /* Espaçamento entre as seções */
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Cada seção (Turmas, Salas, Laboratórios) */
+        .section {
+            display: flex;
+            flex-wrap: wrap; /* Quebra para nova linha se necessário */
+            gap: 15px;
+            justify-content: center;
+        }
+
+        /* Container para Turmas e Salas */
+        .turmas, .salas, .laboratorios {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            /* width: 320px; Tamanho fixo para cada item */
+        }
+
+        /* Título das listas */
+        h3 {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        /* Estilo das turmas */
+        .turma {
+            background-color: #f0f8ff;
+            border: 2px solid #0073e6;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 8px 0;
+            cursor: grab;
+            transition: background-color 0.3s ease;
+        }
+
+        .turma:hover {
+            background-color: #cce7ff;
+        }
+
+        /* Estilo das salas */
+        .sala {
+            background-color: #f8f8f8;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            cursor: pointer;
+            min-height: 50px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+            height: 80px; /* Altura fixa para salas e laboratórios */
+        }
+
+        .sala:hover {
+            background-color: #e0f7fa;
+        }
+
+        .sala.droppable {
+            border: 2px dashed #0073e6;
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .turmas, .salas, .laboratorios {
+                width: 100%; /* Ocupa toda a largura da tela */
+                max-width: 400px; /* Limitar o tamanho máximo */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Painel de Alocação</h1>
+    <div class="container">
+        <!-- Segunda linha: Turmas -->
+        <div class="section turmas">
+            <h3>Turmas</h3>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma1">1° EM ADM Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma2">2° EM ADM Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma3">3° EM ADM Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma4">1° EM MKT Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma5">2° EM MKT Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma6">3° EM MKT Manhã</div>
+        </div>
+
+        <!-- Terceira linha: Salas de aula -->
+        <div class="section salas">
+            <h3>Salas de Aula</h3>
+            <div class="sala" id="sala1" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 1</div>
+            <div class="sala" id="sala2" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 2</div>
+            <div class="sala" id="sala3" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 3</div>
+            <div class="sala" id="sala4" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 4</div>
+            <div class="sala" id="sala5" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 5</div>
+            <div class="sala" id="sala6" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 6</div>
+            <div class="sala" id="sala7" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 7</div>
+            <div class="sala" id="sala8" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 8</div>
+            <div class="sala" id="sala9" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 9</div>
+            <div class="sala" id="sala10" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 10</div>
+        </div>
+
+        <!-- Quarta linha: Laboratórios -->
+        <div class="section laboratorios">
+            <h3>Laboratórios</h3>
+            <div class="sala" id="lab1" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 1</div>
+            <div class="sala" id="lab2" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 2</div>
+            <div class="sala" id="lab3" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 3</div>
+            <div class="sala" id="lab4" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 4</div>
+            <div class="sala" id="lab5" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 5</div>
+        </div>
+
+        <!-- Botões para salvar e limpar -->
+        <div class="buttons">
+            <button onclick="salvarPosicoes()">Salvar Posições</button>
+            <button onclick="limparPosicoes()">Limpar Alocação</button>
+        </div>
+    </div>
+
+    <script>
+        // Função que permite o drag and drop
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        // Função que define o que é arrastado
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.id);
+        }
+
+        // Função que define onde a turma vai ser solta
+        function drop(event) {
+            event.preventDefault();
+            var data = event.dataTransfer.getData("text");
+            var turma = document.getElementById(data);
+            let target = event.target;
+
+            // Garantir que a turma só seja solta em uma sala válida
+            if (target.classList.contains("sala") || target.classList.contains("laboratorio")) {
+                target.appendChild(turma);
+                salvarPosicoes(); // Atualiza as posições após movimentação
+            }
+        }
+
+        // Função para salvar as posições das turmas
+        function salvarPosicoes() {
+            let salas = document.querySelectorAll('.sala');
+            let posicoes = {};
+
+            // Itera sobre as salas e armazena o id das turmas dentro delas
+            salas.forEach(sala => {
+                let turmasDentroSala = sala.querySelectorAll('.turma');
+                let ids = [];
+                turmasDentroSala.forEach(turma => {
+                    ids.push(turma.id);
+                });
+                posicoes[sala.id] = ids;
+            });
+
+            // Salva as posições no localStorage
+            localStorage.setItem('posicoesTurmas', JSON.stringify(posicoes));
+            console.log('Posições salvas', posicoes); // Mostra no console para depuração
+        }
+
+        // Função para restaurar as posições das turmas
+        function restaurarPosicoes() {
+            let posicoes = JSON.parse(localStorage.getItem('posicoesTurmas'));
+
+            if (posicoes) {
+                // Itera sobre as salas e coloca as turmas de volta nas posições
+                for (let salaId in posicoes) {
+                    let sala = document.getElementById(salaId);
+                    let turmaIds = posicoes[salaId];
+
+                    turmaIds.forEach(turmaId => {
+                        let turma = document.getElementById(turmaId);
+                        if (turma) { // Certifica-se de que a turma existe
+                            sala.appendChild(turma);
+                        }
+                    });
+                }
+            }
+        }
+
+        // Função para limpar todas as alocações e restaurar as turmas
+        function limparPosicoes() {
+            if (confirm("Tem certeza que deseja limpar todas as alocações?")) {
+                // Move as turmas de volta para a área de "Turmas"
+                let turmas = document.querySelectorAll('.turma');
+                let areaTurmas = document.querySelector('.turmas');
+
+                turmas.forEach(turma => {
+                    // Se a turma não estiver na área de "Turmas", mova para lá
+                    if (!areaTurmas.contains(turma)) {
+                        areaTurmas.appendChild(turma);
+                    }
+                });
+
+                // Limpa as posições salvas no localStorage
+                localStorage.removeItem('posicoesTurmas');
+                alert('Todas as alocações foram removidas e as turmas retornaram para a área de Turmas.');
+            }
+        }
+
+        // Restaura as posições assim que a página é carregada
+        window.onload = function() {
+            restaurarPosicoes();
+        };
+    </script>
+</body>
+
+
+</html>
