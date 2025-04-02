@@ -1,26 +1,26 @@
 {
-  "sala1": [],
+  "sala1": [
+    "turma1"
+  ],
   "sala2": [
     "turma2"
   ],
-  "sala3": [],
-  "sala4": [
-    "turma5"
+  "sala3": [
+    "turma3"
   ],
+  "sala4": [],
   "sala5": [],
   "sala6": [],
   "sala7": [
     "turma4"
   ],
   "sala8": [
-    "turma1"
+    "turma5"
   ],
   "sala9": [
-    "turma3"
-  ],
-  "sala10": [
     "turma6"
   ],
+  "sala10": [],
   "tarde1": [],
   "tarde2": [
     "info1"
