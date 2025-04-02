@@ -1,5 +1,5 @@
 <!-- terceira etapa, salvando todas as turmas em andamento em arquivo JSON hospedado na nuvem
- aprendendonuvem no arquivo geral.json, precisa melhorar o layout e baixar do excel essas turmas -->
+ aprendendonuvem no arquivo geral.json, precisa melhorar o layout (em andamento nesse codigo) e baixar do excel essas turmas -->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -30,18 +30,18 @@ h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3
 <body>
     <h1>Painel de Alocação</h1>
     <div class="container">
-        <div class="section turmas">
-            <h3>Manhã</h3>
+        <div class="section turmas" id="turmas-container">
+            
+            <!-- <h3>Manhã</h3>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="turma1">1° EM ADM Manhã</div>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="turma2">2° EM ADM Manhã</div>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="turma3">3° EM ADM Manhã</div>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="turma4">1° EM MKT Manhã</div>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="turma5">2° EM MKT Manhã</div>
-            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma6">3° EM MKT Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma6">3° EM MKT Manhã</div> -->
         </div>
 
-        <!-- Terceira linha: Salas de aula -->
-        <div class="section salas">            
+       <div class="section salas">            
             <div class="sala" id="sala1" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 1</div>
             <div class="sala" id="sala2" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 2</div>
             <div class="sala" id="sala3" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 3</div>
@@ -54,16 +54,6 @@ h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3
             <div class="sala" id="sala10" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Maker</div>
         </div>
 
-        <!-- Quarta linha: Laboratórios -->
-        <!-- <div class="section laboratorios">
-            <h3>Laboratórios</h3>
-            <div class="sala" id="lab1" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 1</div>
-            <div class="sala" id="lab2" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 2</div>
-            <div class="sala" id="lab3" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 3</div>
-            <div class="sala" id="lab4" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 4</div>
-            <div class="sala" id="lab5" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 5</div>
-        </div> -->
-
         <div class="buttons">
             <button onclick="salvarPosicoes()">Salvar Posições</button>
             <button onclick="limparPosicoes()">Limpar Alocação</button>
@@ -72,15 +62,14 @@ h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3
 
     <div class="container">
         <div class="section turmas">
-            <h3>Turmas</h3>
+            <h3>Tarde</h3>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="info1">1° EM Informática</div>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="info2">2° EM Informática</div>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="info3">3° EM Informática</div>
         </div>
 
-        <!-- Terceira linha: Salas de aula -->
+        
         <div class="section salas">
-            <h3>Tarde</h3>
             <div class="sala" id="tarde1" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 1</div>
             <div class="sala" id="tarde2" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 2</div>
             <div class="sala" id="tarde3" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 3</div>
@@ -93,15 +82,7 @@ h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3
             <div class="sala" id="tarde10" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Maker</div>
         </div>
 
-        <!-- Quarta linha: Laboratórios -->
-        <!-- <div class="section laboratorios">
-            <h3>Laboratórios</h3>
-            <div class="sala" id="lab-tarde1" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 1</div>
-            <div class="sala" id="lab-tarde2" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 2</div>
-            <div class="sala" id="lab-tarde3" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 3</div>
-            <div class="sala" id="lab-tarde4" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 4</div>
-            <div class="sala" id="lab-tarde5" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 5</div>
-        </div> -->
+  
 
         <div class="buttons">
             <button onclick="salvarPosicoes()">Salvar Posições</button>
@@ -110,7 +91,7 @@ h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3
     </div>
     <div class="container">
         <div class="section turmas">
-            <h3>Turmas</h3>
+            <h3>Noite</h3>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="adm1">1° EM ADM</div>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="adm2">2° EM ADM</div>
             <div class="turma" draggable="true" ondragstart="drag(event)" id="adm3">3° EM ADM</div>
@@ -124,9 +105,8 @@ h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3
             <div class="turma" draggable="true" ondragstart="drag(event)" id="tec-adm">1° Técnico em Administração</div>
         </div>
 
-        <!-- Terceira linha: Salas de aula -->
+        
         <div class="section salas">
-            <h3>Noite</h3>
             <div class="sala" id="noite1" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 1</div>
             <div class="sala" id="noite2" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 2</div>
             <div class="sala" id="noite3" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 3</div>
@@ -137,17 +117,7 @@ h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3
             <div class="sala" id="noite8" ondrop="drop(event)" ondragover="allowDrop(event)">Multimeios 2</div>
             <div class="sala" id="noite9" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Térreo</div>
             <div class="sala" id="noite10" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Maker</div>
-        </div>
-
-        <!-- Quarta linha: Laboratórios -->
-        <!-- <div class="section laboratorios">
-            <h3>Laboratórios</h3>
-            <div class="sala" id="lab-tarde1" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 1</div>
-            <div class="sala" id="lab-tarde2" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 2</div>
-            <div class="sala" id="lab-tarde3" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 3</div>
-            <div class="sala" id="lab-tarde4" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 4</div>
-            <div class="sala" id="lab-tarde5" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 5</div>
-        </div> -->
+        </div>        
 
         <div class="buttons">
             <button onclick="salvarPosicoes()">Salvar Posições</button>
@@ -193,14 +163,14 @@ h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3
             let jsonData = JSON.stringify(posicoes, null, 2);
             
             console.log("Copie este JSON e salve no seu repositório:");
-    console.log(jsonData);
+            console.log(jsonData);
 
-    // Criar um arquivo JSON para download
-    let blob = new Blob([jsonData], { type: "application/json" });
-    let a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = "posicoes.json";
-    a.click();
+            // Criar um arquivo JSON para download
+            let blob = new Blob([jsonData], { type: "application/json" });
+            let a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = "posicoes.json";
+            a.click();
         }
 
         async function restaurarPosicoes() {
@@ -243,6 +213,100 @@ h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3
         window.onload = function () {
             restaurarPosicoes();
         };
+       
+
+
+async function carregarHorarios() {
+    try {
+        const response = await fetch("https://aprendendonuvem.github.io/arquivos/EMmanhaCSV.csv");
+        const data = await response.text();
+        const linhas = data.split("\n").map(linha => linha.split(";"));
+
+        const horarios = [];
+        for (let i = 0; i < linhas.length; i++) { 
+            if (linhas[i].length > 1) {
+                horarios.push({
+                    turma: linhas[i][0],   // Nome da turma
+                    horario: linhas[i][1]  // Horário
+                });
+            }
+        }
+
+        const container = document.getElementById("turmas-container");
+        container.innerHTML = ""; // Limpa as turmas anteriores
+
+        horarios.forEach((item, index) => {
+            const div = document.createElement("div");
+            div.className = "turma";
+            div.draggable = true;
+            div.ondragstart = drag;
+            div.id = `turma${index + 1}`;
+            div.textContent = `${item.turma} - ${item.horario}`;
+            container.appendChild(div);
+        });
+
+    } catch (error) {
+        console.error("Erro ao carregar o arquivo CSV:", error);
+    }
+}
+
+// Chamar a função ao carregar a página
+carregarHorarios();
+async function carregarTurmas() {
+        try {
+            console.log("Iniciando carregamento do CSV...");
+            const response = await fetch("https://aprendendonuvem.github.io/arquivos/EMmanhaCSV.csv");
+    
+            if (!response.ok) {
+                throw new Error(`Erro ao carregar o CSV: ${response.status}`);
+            }
+    
+            const data = await response.text();
+            console.log("Dados brutos do CSV:", data); // Verificar conteúdo bruto
+    
+            const linhas = data.split("\n").map(linha => linha.split(";"));
+            console.log("Linhas processadas:", linhas); // Verificar a estrutura das linhas
+    
+            const horarios = [];
+            for (let i = 0; i < linhas.length; i+=14) {
+                if (linhas[i].length > 1) {
+                    horarios.push({
+                        turma: linhas[i][0].trim(),  // Nome da turma
+                        horario: linhas[i][1].trim() // Horário
+                    });
+                }
+            }
+    
+            console.log("Horários extraídos:", horarios); // Verificar se os dados estão corretos
+    
+            const container = document.getElementById("turmas-container");
+            container.innerHTML = ""; // Apaga as turmas anteriores
+    
+            horarios.forEach((item, index) => {
+                const div = document.createElement("div");
+                div.className = "turma";
+                div.draggable = true;
+                div.ondragstart = drag; // Agora a função existe
+                div.id = `turma${index + 1}`;
+                div.textContent = `${item.turma} - ${item.horario}`;
+                container.appendChild(div);
+            });
+    
+            console.log("Turmas adicionadas ao DOM!");
+    
+        } catch (error) {
+            console.error("Erro ao carregar os horários:", error);
+        }
+    }
+    
+    // Definição da função drag
+    function drag(event) {
+        event.dataTransfer.setData("text", event.target.id);
+        console.log("Arrastando:", event.target.id);
+    }
+    
+    // Chamar a função ao carregar a página
+    carregarTurmas();        
     </script>
 </body>
 </html>
