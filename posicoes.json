@@ -1,8 +1,29 @@
 {
   "sala1": [],
   "sala2": [
-    "turma6"
+    "turma2"
   ],
   "sala3": [],
-  "sala4": []
+  "sala4": [
+    "turma5"
+  ],
+  "sala5": [],
+  "sala6": [],
+  "sala7": [
+    "turma4"
+  ],
+  "sala8": [
+    "turma1"
+  ],
+  "sala9": [
+    "turma3"
+  ],
+  "sala10": [
+    "turma6"
+  ],
+  "lab1": [],
+  "lab2": [],
+  "lab3": [],
+  "lab4": [],
+  "lab5": []
 }
