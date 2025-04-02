@@ -21,11 +21,6 @@
   "sala10": [
     "turma6"
   ],
-  "lab1": [],
-  "lab2": [],
-  "lab3": [],
-  "lab4": [],
-  "lab5": [],
   "tarde1": [],
   "tarde2": [
     "info1"
@@ -42,9 +37,34 @@
     "info3"
   ],
   "tarde10": [],
-  "lab-tarde1": [],
-  "lab-tarde2": [],
-  "lab-tarde3": [],
-  "lab-tarde4": [],
-  "lab-tarde5": []
+  "noite1": [
+    "adm1"
+  ],
+  "noite2": [
+    "adm2"
+  ],
+  "noite3": [
+    "adm3"
+  ],
+  "noite4": [
+    "tec-adm"
+  ],
+  "noite5": [
+    "tec-contabilidade"
+  ],
+  "noite6": [
+    "tec-rh"
+  ],
+  "noite7": [
+    "tec-multimidia"
+  ],
+  "noite8": [
+    "tec-sjur"
+  ],
+  "noite9": [
+    "tec-tti"
+  ],
+  "noite10": [
+    "tec-mkt"
+  ]
 }
