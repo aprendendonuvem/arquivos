@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Alocação</title>
+    <style>
+/* :root { --bg-primary: #200000; --bg-secondary: #400000; --bg-tertiary: #600000; --bg-hover: #800000; --text-color: #F8E0E0; --highlight-color: #FF4D4D; --border-color: #A00000; --hover-border: #FF6666; --box-shadow: rgba(0, 0, 0, 0.3); } */
+/* :root { --bg-primary: #200000; --bg-secondary: #400000; --bg-tertiary: #600000; --bg-hover: #800000; --text-color: #F8E0E0; --highlight-color: #FF4D4D; --border-color: #A00000; --hover-border: #FF6666; --box-shadow: rgba(0, 0, 0, 0.3); } */
+/* :root { --bg-primary: #1a1a1a; --bg-secondary: #2e2e2e; --bg-tertiary: #3d0000; --bg-hover: #5c0000; --text-color: #ffffff; --highlight-color: #ff3b3b; --border-color: #8b0000; --hover-border: #ff6666; --box-shadow: rgba(0, 0, 0, 0.5); } */
+:root { --bg-primary: #1a1a1a; --bg-secondary: #2e2e2e; --bg-tertiary: #444444; --bg-hover: #666666; --text-color: #ffffff; --highlight-color: #cccccc; --border-color: #888888; --hover-border: #bbbbbb; --box-shadow: rgba(0, 0, 0, 0.5); }
+
+* { background-color: var(--bg-primary); color: var(--text-color); margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; display: flex; justify-content: center; align-items: center; flex-direction: column; background-color: var(--bg-secondary); color: var(--text-color); }
+h1 { text-align: center; font-size: 2rem; color: var(--highlight-color); margin: 20px; background-color: var(--border-color); padding: 20px; border-radius: 25px; box-shadow: 0 4px 8px var(--box-shadow); }
+.container { display: flex; flex-direction: column; gap: 3px; width: 100%; max-width: 1200px; padding: 20px; }
+.section { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+.turmas, .salas, .laboratorios { background-color: var(--bg-tertiary); border-radius: 12px; box-shadow: 0 4px 12px var(--box-shadow); padding: 20px; transition: transform 0.2s ease-in-out; }
+.turmas:hover, .salas:hover, .laboratorios:hover { transform: translateY(-5px); }
+h3 { display: flex; align-items: center; justify-content: center; font-size: 1.3rem; color: var(--text-color); margin-bottom: 1px; width: 150px; border-radius: 50px; height: 30px; background-color: var(--bg-primary); }
+.turma { background-color: var(--border-color); border: 2px solid var(--highlight-color); border-radius: 8px; padding: 12px; margin: 8px 0; cursor: grab; transition: all 0.3s ease; }
+.turma:hover { background-color: var(--bg-hover); }
+.sala { background-color: var(--border-color); border: 2px solid var(--border-color); border-radius: 8px; padding: 15px; cursor: pointer; min-height: 50px; text-align: center; transition: background-color 0.3s ease, transform 0.2s ease-in-out; height: 120px; width: 160px; }
+.sala:hover { background-color: var(--bg-hover); transform: scale(1.05); }
+.sala.droppable { border: 2px dashed var(--hover-border); }
+@media (max-width: 768px) { .container { padding: 10px; } .turmas, .salas, .laboratorios { width: 100%; max-width: 400px; } }
+ 
+    </style>
+</head>
+<body>
+    <h1>Painel de Alocação</h1>
+    <div class="container">
+        <div class="section turmas">
+            <h3>Turmas</h3>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma1">1° EM ADM Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma2">2° EM ADM Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma3">3° EM ADM Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma4">1° EM MKT Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma5">2° EM MKT Manhã</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="turma6">3° EM MKT Manhã</div>
+        </div>
+
+        <!-- Terceira linha: Salas de aula -->
+        <div class="section salas">
+            <h3>Manhã</h3>
+            <div class="sala" id="sala1" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 1</div>
+            <div class="sala" id="sala2" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 2</div>
+            <div class="sala" id="sala3" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 3</div>
+            <div class="sala" id="sala4" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 4</div>
+            <div class="sala" id="sala5" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 5</div>
+            <div class="sala" id="sala6" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 6</div>
+            <div class="sala" id="sala7" ondrop="drop(event)" ondragover="allowDrop(event)">Multimeios 1</div>
+            <div class="sala" id="sala8" ondrop="drop(event)" ondragover="allowDrop(event)">Multimeios 2</div>
+            <div class="sala" id="sala9" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Térreo</div>
+            <div class="sala" id="sala10" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Maker</div>
+        </div>
+
+        <!-- Quarta linha: Laboratórios -->
+        <!-- <div class="section laboratorios">
+            <h3>Laboratórios</h3>
+            <div class="sala" id="lab1" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 1</div>
+            <div class="sala" id="lab2" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 2</div>
+            <div class="sala" id="lab3" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 3</div>
+            <div class="sala" id="lab4" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 4</div>
+            <div class="sala" id="lab5" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 5</div>
+        </div> -->
+
+        <div class="buttons">
+            <button onclick="salvarPosicoes()">Salvar Posições</button>
+            <button onclick="limparPosicoes()">Limpar Alocação</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section turmas">
+            <h3>Turmas</h3>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="info1">1° EM Informática</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="info2">2° EM Informática</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="info3">3° EM Informática</div>
+        </div>
+
+        <!-- Terceira linha: Salas de aula -->
+        <div class="section salas">
+            <h3>Tarde</h3>
+            <div class="sala" id="tarde1" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 1</div>
+            <div class="sala" id="tarde2" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 2</div>
+            <div class="sala" id="tarde3" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 3</div>
+            <div class="sala" id="tarde4" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 4</div>
+            <div class="sala" id="tarde5" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 5</div>
+            <div class="sala" id="tarde6" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 6</div>
+            <div class="sala" id="tarde7" ondrop="drop(event)" ondragover="allowDrop(event)">Multimeios 1</div>
+            <div class="sala" id="tarde8" ondrop="drop(event)" ondragover="allowDrop(event)">Multimeios 2</div>
+            <div class="sala" id="tarde9" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Térreo</div>
+            <div class="sala" id="tarde10" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Maker</div>
+        </div>
+
+        <!-- Quarta linha: Laboratórios -->
+        <!-- <div class="section laboratorios">
+            <h3>Laboratórios</h3>
+            <div class="sala" id="lab-tarde1" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 1</div>
+            <div class="sala" id="lab-tarde2" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 2</div>
+            <div class="sala" id="lab-tarde3" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 3</div>
+            <div class="sala" id="lab-tarde4" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 4</div>
+            <div class="sala" id="lab-tarde5" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 5</div>
+        </div> -->
+
+        <div class="buttons">
+            <button onclick="salvarPosicoes()">Salvar Posições</button>
+            <button onclick="limparPosicoes()">Limpar Alocação</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section turmas">
+            <h3>Turmas</h3>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="adm1">1° EM ADM</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="adm2">2° EM ADM</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="adm3">3° EM ADM</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="tec-redes">1° Técnico em Redes de Computadores</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="tec-mkt">1° Técnico em Marketing</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="tec-tti">1° Técnico em Trans. Imob.</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="tec-sjur">1° Técnico em S. Jurídicos</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="tec-multimidia">1° Técnico em Multimídia</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="tec-contabilidade">1° Técnico em Contabilidade</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="tec-rh">1° Técnico em RH</div>
+            <div class="turma" draggable="true" ondragstart="drag(event)" id="tec-adm">1° Técnico em Administração</div>
+        </div>
+
+        <!-- Terceira linha: Salas de aula -->
+        <div class="section salas">
+            <h3>Noite</h3>
+            <div class="sala" id="noite1" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 1</div>
+            <div class="sala" id="noite2" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 2</div>
+            <div class="sala" id="noite3" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 3</div>
+            <div class="sala" id="noite4" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 4</div>
+            <div class="sala" id="noite5" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 5</div>
+            <div class="sala" id="noite6" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 6</div>
+            <div class="sala" id="noite7" ondrop="drop(event)" ondragover="allowDrop(event)">Multimeios 1</div>
+            <div class="sala" id="noite8" ondrop="drop(event)" ondragover="allowDrop(event)">Multimeios 2</div>
+            <div class="sala" id="noite9" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Térreo</div>
+            <div class="sala" id="noite10" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Maker</div>
+        </div>
+
+        <!-- Quarta linha: Laboratórios -->
+        <!-- <div class="section laboratorios">
+            <h3>Laboratórios</h3>
+            <div class="sala" id="lab-tarde1" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 1</div>
+            <div class="sala" id="lab-tarde2" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 2</div>
+            <div class="sala" id="lab-tarde3" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 3</div>
+            <div class="sala" id="lab-tarde4" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 4</div>
+            <div class="sala" id="lab-tarde5" ondrop="drop(event)" ondragover="allowDrop(event)">Lab 5</div>
+        </div> -->
+
+        <div class="buttons">
+            <button onclick="salvarPosicoes()">Salvar Posições</button>
+            <button onclick="limparPosicoes()">Limpar Alocação</button>
+        </div>
+    </div>
+    <script>
+        const URL_JSON = "https://aprendendonuvem.github.io/arquivos/geral.json";
+
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.id);
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            var data = event.dataTransfer.getData("text");
+            var turma = document.getElementById(data);
+            let target = event.target;
+
+            if (target.classList.contains("sala")) {
+                target.appendChild(turma);
+                salvarPosicoes();
+            }
+        }
+
+        function salvarPosicoes() {
+            let salas = document.querySelectorAll('.sala');
+            let posicoes = {};
+
+            salas.forEach(sala => {
+                let turmasDentroSala = sala.querySelectorAll('.turma');
+                let ids = [];
+                turmasDentroSala.forEach(turma => {
+                    ids.push(turma.id);
+                });
+                posicoes[sala.id] = ids;
+            });
+
+            let jsonData = JSON.stringify(posicoes, null, 2);
+            
+            console.log("Copie este JSON e salve no seu repositório:");
+    console.log(jsonData);
+
+    // Criar um arquivo JSON para download
+    let blob = new Blob([jsonData], { type: "application/json" });
+    let a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "posicoes.json";
+    a.click();
+        }
+
+        async function restaurarPosicoes() {
+            try {
+                let response = await fetch(URL_JSON);
+                if (!response.ok) throw new Error("Arquivo não encontrado.");
+                let posicoes = await response.json();
+
+                for (let salaId in posicoes) {
+                    let sala = document.getElementById(salaId);
+                    let turmaIds = posicoes[salaId];
+
+                    turmaIds.forEach(turmaId => {
+                        let turma = document.getElementById(turmaId);
+                        if (turma) {
+                            sala.appendChild(turma);
+                        }
+                    });
+                }
+            } catch (error) {
+                console.log("Não foi possível carregar as posições:", error);
+            }
+        }
+
+        function limparPosicoes() {
+            if (confirm("Tem certeza que deseja limpar todas as alocações?")) {
+                let turmas = document.querySelectorAll('.turma');
+                let areaTurmas = document.querySelector('.turmas');
+
+                turmas.forEach(turma => {
+                    if (!areaTurmas.contains(turma)) {
+                        areaTurmas.appendChild(turma);
+                    }
+                });
+
+                console.log("Agora atualize o JSON no repositório para refletir essa mudança.");
+            }
+        }
+
+        window.onload = function () {
+            restaurarPosicoes();
+        };
+    </script>
+</body>
+</html>
