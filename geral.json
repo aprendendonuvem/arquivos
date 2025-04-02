@@ -1,0 +1,50 @@
+{
+  "sala1": [],
+  "sala2": [
+    "turma2"
+  ],
+  "sala3": [],
+  "sala4": [
+    "turma5"
+  ],
+  "sala5": [],
+  "sala6": [],
+  "sala7": [
+    "turma4"
+  ],
+  "sala8": [
+    "turma1"
+  ],
+  "sala9": [
+    "turma3"
+  ],
+  "sala10": [
+    "turma6"
+  ],
+  "lab1": [],
+  "lab2": [],
+  "lab3": [],
+  "lab4": [],
+  "lab5": [],
+  "tarde1": [],
+  "tarde2": [
+    "info1"
+  ],
+  "tarde3": [],
+  "tarde4": [
+    "info2"
+  ],
+  "tarde5": [],
+  "tarde6": [],
+  "tarde7": [],
+  "tarde8": [],
+  "tarde9": [
+    "info3"
+  ],
+  "tarde10": [],
+  "lab-tarde1": [],
+  "lab-tarde2": [],
+  "lab-tarde3": [],
+  "lab-tarde4": [],
+  "lab-tarde5": []
+}
