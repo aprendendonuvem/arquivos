@@ -5,103 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel de Alocação</title>
     <style>
-        /* Estilo geral */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f7fb;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            /* overflow: hidden; */
-            flex-direction: column;
-        }
+        body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7fb;margin: 0;padding: 0;color: #333;display: flex;
+            justify-content: center;align-items: center;flex-direction: column;}
 
-        h1 {
-            text-align: center;
-            font-size: 2rem;
-            color: #0057b8;
-            margin-bottom: 20px;
-        }
+        h1 {text-align: center;font-size: 2rem;color: #0057b8;margin: 20px;}
 
-        /* Container geral */
-        .container {
-            display: flex;
-            flex-direction: column; /* Organizar as seções em colunas */
-            gap: 30px; /* Espaçamento entre as seções */
-            width: 100%;
-            max-width: 1200px;
-            padding: 20px;
-            box-sizing: border-box;
-        }
+        .container {display: flex;flex-direction: column; gap: 30px; width: 100%;
+            /* max-width: 1200px; */padding: 20px;box-sizing: border-box;}
 
-        /* Cada seção (Turmas, Salas, Laboratórios) */
-        .section {
-            display: flex;
-            flex-wrap: wrap; /* Quebra para nova linha se necessário */
-            gap: 15px;
-            justify-content: center;
-        }
+        .section {display: flex;flex-wrap: wrap; gap: 15px;justify-content: center;}
 
-        /* Container para Turmas e Salas */
         .turmas, .salas, .laboratorios {
-            background-color: white;
-            border-radius: 8px;
+            background-color: white;border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            box-sizing: border-box;
-            /* width: 320px; Tamanho fixo para cada item */
-        }
+            padding: 20px;box-sizing: border-box;}
 
-        /* Título das listas */
-        h3 {
-            text-align: center;
-            font-size: 1.2rem;
-            color: #333;
-            margin-bottom: 10px;
-        }
+        h3 {text-align: center;font-size: 1.2rem;color: #333;margin-bottom: 10px;}
 
-        /* Estilo das turmas */
-        .turma {
-            background-color: #f0f8ff;
-            border: 2px solid #0073e6;
-            border-radius: 5px;
-            padding: 10px;
-            margin: 8px 0;
-            cursor: grab;
-            transition: background-color 0.3s ease;
-        }
+        .turma {background-color: #f0f8ff;border: 2px solid #0073e6;border-radius: 5px;
+            padding: 10px;margin: 8px 0;cursor: grab;transition: background-color 0.3s ease;}
 
-        .turma:hover {
-            background-color: #cce7ff;
-        }
+        .turma:hover {background-color: #cce7ff;}
 
-        /* Estilo das salas */
-        .sala {
-            background-color: #f8f8f8;
-            border: 2px solid #ddd;
-            border-radius: 5px;
-            padding: 15px;
-            margin: 10px 0;
-            cursor: pointer;
-            min-height: 50px;
-            text-align: center;
-            transition: background-color 0.3s ease;
-            height: 80px; /* Altura fixa para salas e laboratórios */
-        }
+        
+        .sala {background-color: #f8f8f8;border: 2px solid #ddd;border-radius: 5px;padding: 15px;
+            margin: 10px 0;cursor: pointer;min-height: 50px;text-align: center;transition: background-color 0.3s ease;
+            height: 80px; width: 160px;}
 
-        .sala:hover {
-            background-color: #e0f7fa;
-        }
+        .sala:hover {background-color: #e0f7fa;}
 
-        .sala.droppable {
-            border: 2px dashed #0073e6;
-        }
+        .sala.droppable {border: 2px dashed #0073e6;}
 
-        /* Responsividade para telas menores */
         @media (max-width: 768px) {
             .container {
                 padding: 10px;
@@ -137,10 +72,10 @@
             <div class="sala" id="sala4" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 4</div>
             <div class="sala" id="sala5" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 5</div>
             <div class="sala" id="sala6" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 6</div>
-            <div class="sala" id="sala7" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 7</div>
-            <div class="sala" id="sala8" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 8</div>
-            <div class="sala" id="sala9" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 9</div>
-            <div class="sala" id="sala10" ondrop="drop(event)" ondragover="allowDrop(event)">Sala 10</div>
+            <div class="sala" id="sala7" ondrop="drop(event)" ondragover="allowDrop(event)">Multimeios 1</div>
+            <div class="sala" id="sala8" ondrop="drop(event)" ondragover="allowDrop(event)">Multimeios 2</div>
+            <div class="sala" id="sala9" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Térreo</div>
+            <div class="sala" id="sala10" ondrop="drop(event)" ondragover="allowDrop(event)">Sala Maker</div>
         </div>
 
         <!-- Quarta linha: Laboratórios -->
