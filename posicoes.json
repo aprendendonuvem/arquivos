@@ -1,29 +1,51 @@
 {
   "sala1": [],
   "sala2": [
-    "turma2"
+    "turma17"
   ],
   "sala3": [],
   "sala4": [
-    "turma5"
+    "turma20"
   ],
   "sala5": [],
   "sala6": [],
   "sala7": [
-    "turma4"
+    "turma19"
   ],
   "sala8": [
-    "turma1"
+    "turma16"
   ],
   "sala9": [
-    "turma3"
+    "turma18"
   ],
   "sala10": [
-    "turma6"
+    "turma21"
   ],
-  "lab1": [],
-  "lab2": [],
-  "lab3": [],
-  "lab4": [],
-  "lab5": []
+  "tarde1": [],
+  "tarde2": [
+    "turma22"
+  ],
+  "tarde3": [],
+  "tarde4": [
+    "turma23"
+  ],
+  "tarde5": [],
+  "tarde6": [],
+  "tarde7": [],
+  "tarde8": [],
+  "tarde9": [
+    "turma24"
+  ],
+  "tarde10": [],
+  "noite1": [],
+  "noite2": [],
+  "noite3": [],
+  "noite4": [],
+  "noite5": [],
+  "noite6": [],
+  "noite7": [],
+  "noite8": [],
+  "noite9": [],
+  "noite10": [],
+  "noite11": []
 }
