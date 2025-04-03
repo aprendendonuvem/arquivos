@@ -37,15 +37,41 @@
     "turma24"
   ],
   "tarde10": [],
-  "noite1": [],
-  "noite2": [],
-  "noite3": [],
-  "noite4": [],
-  "noite5": [],
-  "noite6": [],
-  "noite7": [],
-  "noite8": [],
-  "noite9": [],
-  "noite10": [],
-  "noite11": []
+  "noite1": [
+    "turma8"
+  ],
+  "noite2": [
+    "turma7"
+  ],
+  "noite3": [
+    "turma13"
+  ],
+  "noite4": [
+    "turma9"
+  ],
+  "noite5": [
+    "turma15"
+  ],
+  "noite6": [
+    "turma14"
+  ],
+  "noite7": [
+    "turma6"
+  ],
+  "noite8": [
+    "turma11"
+  ],
+  "noite9": [
+    "turma5"
+  ],
+  "noite10": [
+    "turma10"
+  ],
+  "noite11": [],
+  "noite12": [
+    "turma2",
+    "turma1",
+    "turma4",
+    "turma3"
+  ]
 }
