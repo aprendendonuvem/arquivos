@@ -1,70 +1,51 @@
 {
   "sala1": [],
   "sala2": [
-    "turma2"
+    "turma17"
   ],
   "sala3": [],
   "sala4": [
-    "turma5"
+    "turma20"
   ],
   "sala5": [],
   "sala6": [],
   "sala7": [
-    "turma4"
+    "turma19"
   ],
   "sala8": [
-    "turma1"
+    "turma16"
   ],
   "sala9": [
-    "turma3"
+    "turma18"
   ],
   "sala10": [
-    "turma6"
+    "turma21"
   ],
   "tarde1": [],
   "tarde2": [
-    "info1"
+    "turma22"
   ],
   "tarde3": [],
   "tarde4": [
-    "info2"
+    "turma23"
   ],
   "tarde5": [],
   "tarde6": [],
   "tarde7": [],
   "tarde8": [],
   "tarde9": [
-    "info3"
+    "turma24"
   ],
   "tarde10": [],
-  "noite1": [
-    "tec-contabilidade"
-  ],
-  "noite2": [
-    "tec-sjur"
-  ],
-  "noite3": [
-    "adm1"
-  ],
-  "noite4": [
-    "tec-mkt"
-  ],
-  "noite5": [
-    "adm3"
-  ],
-  "noite6": [
-    "adm2"
-  ],
-  "noite7": [
-    "tec-tti"
-  ],
-  "noite8": [
-    "tec-rh"
-  ],
-  "noite9": [
-    "tec-adm"
-  ],
-  "noite10": [
-    "tec-multimidia"
-  ]
+  "noite1": [],
+  "noite2": [],
+  "noite3": [],
+  "noite4": [],
+  "noite5": [],
+  "noite6": [],
+  "noite7": [],
+  "noite8": [],
+  "noite9": [],
+  "noite10": [],
+  "noite11": []
 }
