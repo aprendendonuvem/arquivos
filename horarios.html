@@ -168,7 +168,8 @@
         }
 
         if (horarios.length > 0) {
-          turmas.push({ cabecalho, periodo, horarios });
+          const cabecalhoFormatado = cabecalho.split(";;")[0].trim();
+          turmas.push({ cabecalho: cabecalhoFormatado, periodo, horarios });
         }
 
         i = j - 1;
@@ -187,6 +188,8 @@
     }
 
     function renderizar(turmas) {
+      const titulo = document.createElement("h3");
+      
       const container = document.getElementById("container");
       container.innerHTML = "";
 
