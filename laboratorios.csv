@@ -1,0 +1,77 @@
+{
+  "sala1": [],
+  "sala2": [
+    "turma17"
+  ],
+  "sala3": [],
+  "sala4": [
+    "turma20"
+  ],
+  "sala5": [],
+  "sala6": [],
+  "sala7": [
+    "turma19"
+  ],
+  "sala8": [
+    "turma16"
+  ],
+  "sala9": [
+    "turma18"
+  ],
+  "sala10": [
+    "turma21"
+  ],
+  "tarde1": [],
+  "tarde2": [
+    "turma22"
+  ],
+  "tarde3": [],
+  "tarde4": [
+    "turma23"
+  ],
+  "tarde5": [],
+  "tarde6": [],
+  "tarde7": [],
+  "tarde8": [],
+  "tarde9": [
+    "turma24"
+  ],
+  "tarde10": [],
+  "noite1": [
+    "turma8"
+  ],
+  "noite2": [
+    "turma7"
+  ],
+  "noite3": [
+    "turma13"
+  ],
+  "noite4": [
+    "turma9"
+  ],
+  "noite5": [
+    "turma15"
+  ],
+  "noite6": [
+    "turma14"
+  ],
+  "noite7": [
+    "turma6"
+  ],
+  "noite8": [
+    "turma11"
+  ],
+  "noite9": [
+    "turma5"
+  ],
+  "noite10": [
+    "turma10"
+  ],
+  "noite11": [],
+  "noite12": [
+    "turma2",
+    "turma1",
+    "turma4",
+    "turma3"
+  ]
+}
