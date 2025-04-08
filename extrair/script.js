@@ -1,3 +1,4 @@
+//ainda precisa apagar as ultimas colunas no excel
 let csvFiles = [];  // Aqui armazenamos os CSVs gerados.
 
 function processFile() {
