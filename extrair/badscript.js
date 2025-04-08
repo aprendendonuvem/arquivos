@@ -1,3 +1,5 @@
+// tentativas de pegar somente 6 colunas pra nao precisar apagar os ; ou excluir as ultimas colunas, 
+//pra turma da noite sumiu o no dos professores na ultima aula
 let csvFiles = [];  // Aqui armazenamos os CSVs gerados.
 
 function processFile() {
