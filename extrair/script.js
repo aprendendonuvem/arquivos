@@ -1,4 +1,3 @@
-//ainda precisa apagar as ultimas colunas no excel
 let csvFiles = [];  // Aqui armazenamos os CSVs gerados.
 
 function processFile() {
@@ -35,6 +34,10 @@ function processFile() {
       const worksheet = workbook.Sheets[sheetName];
       const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
       const limitedData = jsonData.slice(0, numRows);
+      // Limita o número de linhas e colunas (6 primeiras colunas)
+      // const limitedData = jsonData
+      // .slice(0, numRows)
+      // .map(row => row.slice(0, 6)); // aqui pegamos só as 6 primeiras colunas
       const csvData = XLSX.utils.sheet_to_csv(XLSX.utils.aoa_to_sheet(limitedData), { FS: ";" });
       csvFiles.push({ sheetName, csvData });
     });
