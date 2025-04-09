@@ -1,4 +1,4 @@
-<!-- padronizando todos os horarios aparece ok, destacar professores -->
+<!-- ajustar filtro de busca prof para aparecer o professor no mesmo dia da semana selecionado -->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -376,17 +376,22 @@
     function aplicarFiltros() {
       const periodo = getPeriodoSelecionado();
       const professorTexto = document.getElementById("filtroProfessor").value.toLowerCase();
+      const indexHoje = getDiaSelecionado();
 
       const filtradas = todasTurmas.filter(turma => {
         const periodoOk = periodo === "todos" || turma.periodo === periodo;
-        const professorOk = professorTexto === "" || turma.horarios.some(h =>
-          h.aulas.some(a => a.professor.toLowerCase().includes(professorTexto))
-        );
+
+        const professorOk = professorTexto === "" || turma.horarios.some(h => {
+          const aula = h.aulas[indexHoje];
+          return aula && aula.professor.toLowerCase().includes(professorTexto);
+        });
+
         return periodoOk && professorOk;
       });
 
       renderizar(filtradas);
     }
+
 
     carregarHorarios().then(turmas => {
       todasTurmas = turmas;
