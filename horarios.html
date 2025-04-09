@@ -127,7 +127,27 @@
         background-position: 0% 0;
       }
     }
+    @keyframes destaqueScale {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+      100% { transform: scale(1); }
+    }
 
+    .professor-destaque {
+      animation: destaqueScale 0.8s ease-in-out;
+      background: linear-gradient(90deg, #a0f0ff, #ffffff, #a0f0ff);
+      background-size: 200% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 5px #b0faff) blur(0.5px);
+      animation: destaqueScale 0.8s ease-in-out infinite, brisaGelo 2s linear infinite;
+    }
+
+    @keyframes brisaGelo {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
   </style>
 </head>
 <body>
@@ -295,6 +315,13 @@
 
             // Cria um span para o nome do professor
             const spanProfessor = document.createElement("span");
+            const professorFiltro = document.getElementById("filtroProfessor").value.toLowerCase();
+
+            spanProfessor.textContent = aulaHoje.professor;
+
+            if (professorFiltro && aulaHoje.professor.toLowerCase().includes(professorFiltro)) {
+              spanProfessor.classList.add("professor-destaque");
+            }
             const horaAtual = new Date().getHours();
             if (horaAtual < 15) {
                 spanProfessor.classList.add("gradiente-verde");
