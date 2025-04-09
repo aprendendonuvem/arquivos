@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Leitor de Horários - Excel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f5f5f5;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    input[type="file"] {
+      margin-bottom: 20px;
+    }
+    .curso-bloco {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .info {
+      margin-bottom: 15px;
+    }
+    .info span {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #6BBF59;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Leitor de Horários (Excel)</h1>
+  <input type="file" id="excelFile" accept=".xlsx" />
+  <div id="resultado"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script>
+    const excelInput = document.getElementById('excelFile');
+    const resultadoDiv = document.getElementById('resultado');
+
+    excelInput.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        const data = new Uint8Array(event.target.result);
+        const workbook = XLSX.read(data, { type: 'array' });
+
+        resultadoDiv.innerHTML = '';
+
+        workbook.SheetNames.forEach((sheetName) => {
+          const worksheet = workbook.Sheets[sheetName];
+          const rows = XLSX.utils.sheet_to_json(worksheet, {
+            header: 1,
+            defval: ""
+          });
+
+          const curso = (rows[0]?.[0] || "").toString().trim();
+          const cursoLower = curso.toLowerCase();
+          const turnos = ['manhã', 'manha', 'tarde', 'noite'];
+          const contemTurno = turnos.some(t => cursoLower.includes(t));
+
+          let coordenador = "";
+          let horario = "";
+
+          if (contemTurno) {
+            coordenador = (rows[16]?.[2] || "").toString().trim(); // linha 17
+            horario     = (rows[17]?.[2] || "").toString().trim(); // linha 18
+          } else {
+            coordenador = (rows[12]?.[2] || "").toString().trim(); // linha 13
+            horario     = (rows[13]?.[2] || "").toString().trim(); // linha 14
+          }
+
+          // Tabela de horário com detecção de cabeçalho
+          let tabelaHorario = "";
+          let linhaInicial, linhaFinal;
+            if (contemTurno) {
+            linhaInicial = 17; // linha 18 no Excel
+            linhaFinal = linhaInicial + 8; // pega 8 linhas
+            } else {
+            linhaInicial = 13; // linha 14 no Excel
+            linhaFinal = linhaInicial + 8;
+            }
+            const linhasTabela = rows.slice(linhaInicial, linhaFinal);
+
+
+          function normalizarTexto(txt) {
+            return txt.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+          }
+
+          const diasEsperados = ["segunda", "terca", "quarta", "quinta", "sexta"];
+
+          let indiceCabecalho = linhasTabela.findIndex(linha => {
+            const normalizado = linha.map(c => normalizarTexto(String(c)));
+            return diasEsperados.every(dia =>
+              normalizado.some(cel => cel.includes(dia))
+            );
+          });
+
+          if (linhasTabela.length > 0 && indiceCabecalho !== -1) {
+            tabelaHorario = "<table><tbody>";
+
+                if (linhasTabela.length > 0 && indiceCabecalho !== -1) {
+  // Determinar as colunas de segunda a sexta
+  const cabecalhoNormalizado = linhasTabela[indiceCabecalho].map(c => normalizarTexto(String(c)));
+  const indicesDiasUteis = [];
+
+  diasEsperados.forEach(dia => {
+    const indexDia = cabecalhoNormalizado.findIndex(cel => cel.includes(dia));
+    if (indexDia !== -1) indicesDiasUteis.push(indexDia);
+  });
+
+  tabelaHorario = "<table><tbody>";
+
+  linhasTabela.forEach((linha, index) => {
+    tabelaHorario += "<tr>";
+    indicesDiasUteis.forEach(i => {
+      const celula = linha[i] || "";
+      const isCabecalho = index === indiceCabecalho;
+      tabelaHorario += isCabecalho
+        ? `<th>${celula}</th>`
+        : `<td>${celula}</td>`;
+    });
+    tabelaHorario += "</tr>";
+  });
+
+  tabelaHorario += "</tbody></table>";
+}
+
+
+            tabelaHorario += "</tbody></table>";
+          }
+
+          const bloco = `
+            <div class="curso-bloco">
+              <div class="info">
+                <span><strong>Curso:</strong> ${curso}</span>
+                <span><strong>Coordenador:</strong> ${coordenador}</span>
+                <span><strong>Horário:</strong> ${horario}</span>
+                <span><strong>Aba:</strong> ${sheetName}</span>
+              </div>
+              ${tabelaHorario}
+            </div>
+          `;
+          resultadoDiv.innerHTML += bloco;
+        });
+      };
+      reader.readAsArrayBuffer(file);
+    });
+  </script>
+</body>
+</html>
