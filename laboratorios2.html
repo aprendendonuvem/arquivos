@@ -210,10 +210,7 @@
         const horarios = [];
         let j = i + 1;
         while (j + 1 < linhas.length &&
-               !linhas[j].includes("1º") &&
-               !linhas[j].includes("2º") &&
-               !linhas[j].includes("3º") &&
-               !linhas[j].includes("4º") &&
+               !linhas[j].includes("Lab") &&
                !linhas[j].toLowerCase().includes("coordenação")) {
 
           const disciplinas = linhas[j]?.split(";");
@@ -239,6 +236,7 @@
         if (horarios.length > 0) {
           const cabecalhoFormatado = cabecalho.split(";;")[0].trim();
           turmas.push({ cabecalho: cabecalhoFormatado, periodo, horarios });
+          console.log(cabecalhoFormatado, periodo, horarios)
         }
 
         i = j - 1;
