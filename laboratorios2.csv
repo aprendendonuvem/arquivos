@@ -102,10 +102,10 @@ Segunda;Terça;Quarta;Quinta;Sexta;Horário
 ;;;;;
 IAM - 2° MKT;;;;;8h00 - 8h50
 Sérgio;;;;;
-IAM - 2° MKT;TI - 3° ADM;;;IAM - 2° MKT;8h50 - 9h40
-Sérgio;Sérgio;;;Sérgio;
-IAM - 2° MKT;TI - 3° ADM;DMN - 3° ADM;;IAM - 2° MKT;10h00 - 10h50
-Sérgio;Sérgio;Luciane;;Sérgio;
+IAM - 2° MKT;TI - 3° ADM;;;;8h50 - 9h40
+Sérgio;Sérgio;;;;
+IAM - 2° MKT;TI - 3° ADM;DMN - 3° ADM;;;10h00 - 10h50
+Sérgio;Sérgio;Luciane;;;
 ;;DMN - 3° ADM;DMN - 3° ADM;IAM - 2° MKT;10h50 - 11h40
 ;;Luciane;Luciane;Sérgio;
 ;;;DMN - 3° ADM;;11h40- 12h30
@@ -130,10 +130,10 @@ Segunda;Terça;Quarta;Quinta;Sexta;Horário
 ;;;;;
 PI II - 2° MKT;;;;;8h00 - 8h50
 Letícia;;;;;
-PI II - 2° MKT;;;;PI II - 2° MKT;8h50 - 9h40
-Letícia;;;;Leticia;
-PI II - 2° MKT;Turma Online;;Turma Online;PI II - 2° MKT;10h00 - 10h50
-Letícia;Leandro;;Leandro;Leticia;
+PI II - 2° MKT;;;;;8h50 - 9h40
+Letícia;;;;;
+PI II - 2° MKT;Turma Online;;Turma Online;;10h00 - 10h50
+Letícia;Leandro;;Leandro;;
 ;;;TI - 3° ADM;PI II - 2° MKT;10h50 - 11h40
 ;;;Sérgio;Leticia;
 ;;;TI - 3° ADM;;11h40- 12h30
