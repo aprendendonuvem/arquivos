@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitura Excel com Fetch</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
+    <style>
+        body {font-family: Arial, sans-serif;margin: 20px;background: #f5f5f5;font-size: small;}
+        h1 {color: #2c3e50;}
+        input[type="file"] {margin-bottom: 20px;}
+        #resultado{ display: flex; flex-wrap: wrap;}
+        .curso-bloco {margin-bottom: 40px;padding: 20px;background: #ffffff;border-radius: 10px;box-shadow: 0 0 10px rgba(0,0,0,0.1);width: 420px;}
+        .info {margin-bottom: 15px;}
+        .info span {display: block;font-weight: bold;margin-bottom: 4px;}
+        table {width: 400px;border-collapse: collapse;margin-top: 10px;}
+        th, td {border: 1px solid #ccc;padding: 8px;text-align: center;}
+        th {background-color: #6BBF59;color: white;}
+        .coordenador{ font-size: larger;}
+      </style>
+</head>
+<body>
+    <h1>Leitor de Horários (Excel)</h1>
+    
+    <input type="text" id="buscaCoordenador" placeholder="Digite o nome do coordenador" oninput="filtrarBlocos()"/>
+<br>
+<br>
+<br>
+    <div id="resultado"></div>
+
+    <script>
+
+    function removerAcentos(texto) {
+      return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function filtrarBlocos() {
+      const nomeBusca = removerAcentos(document.getElementById("buscaCoordenador").value.toLowerCase().trim());
+      const blocos = document.querySelectorAll('.curso-bloco');
+      
+      blocos.forEach(bloco => {
+        const coordenador = bloco.querySelector('.coordenador');
+        
+        // Remove acentos do nome do coordenador antes de comparar
+        const nomeCoordenador = removerAcentos(coordenador.textContent.toLowerCase());
+        
+        // Se o nomeBusca não for vazio e o coordenador não contiver o nome buscado, oculta o bloco
+        if (nomeBusca === "" || nomeCoordenador.includes(nomeBusca)) {
+          bloco.style.display = 'block'; // Exibe o bloco
+        } else {
+          bloco.style.display = 'none'; // Oculta o bloco
+        }
+      });
+    }        
+        const resultadoDiv = document.getElementById('resultado');
+
+        // Função para carregar o arquivo Excel do URL
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('https://aprendendonuvem.github.io/arquivos/horariooficial.xlsx')
+                .then(response => response.arrayBuffer())  // Converte a resposta em um ArrayBuffer
+                .then(data => {
+                    const workbook = XLSX.read(data, { type: 'array' });  // Processa o arquivo Excel
+
+                    resultadoDiv.innerHTML = '';
+
+                    workbook.SheetNames.forEach((sheetName) => {
+                        const worksheet = workbook.Sheets[sheetName];
+                        const rows = XLSX.utils.sheet_to_json(worksheet, {
+                            header: 1,
+                            defval: ""
+                        });
+
+                        const curso = (rows[0]?.[0] || "").toString().trim();
+                        const cursoLower = curso.toLowerCase();
+                        const turnos = ['manhã', 'manha', 'tarde', 'noite'];
+                        const contemTurno = turnos.some(t => cursoLower.includes(t));
+
+                        let coordenador = "";
+                        let horario = "";
+
+                        if (contemTurno) {
+                            coordenador = (rows[16]?.[2] || "").toString().trim(); // linha 17
+                            horario     = (rows[17]?.[2] || "").toString().trim(); // linha 18
+                        } else {
+                            coordenador = (rows[12]?.[2] || "").toString().trim(); // linha 13
+                            horario     = (rows[13]?.[2] || "").toString().trim(); // linha 14
+                        }
+
+                        // Tabela de horário com detecção de cabeçalho
+                        let tabelaHorario = "";
+                        let linhaInicial, linhaFinal;
+                        if (contemTurno) {
+                            linhaInicial = 17; // linha 18 no Excel
+                            linhaFinal = linhaInicial + 8; // pega 8 linhas
+                        } else {
+                            linhaInicial = 13; // linha 14 no Excel
+                            linhaFinal = linhaInicial + 8;
+                        }
+                        const linhasTabela = rows.slice(linhaInicial, linhaFinal);
+
+                        function normalizarTexto(txt) {
+                            return txt.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+                        }
+
+                        const diasEsperados = ["segunda", "terca", "quarta", "quinta", "sexta"];
+
+                        let indiceCabecalho = linhasTabela.findIndex(linha => {
+                            const normalizado = linha.map(c => normalizarTexto(String(c)));
+                            return diasEsperados.every(dia =>
+                                normalizado.some(cel => cel.includes(dia))
+                            );
+                        });
+
+                        if (linhasTabela.length > 0 && indiceCabecalho !== -1) {
+                            tabelaHorario = "<table><tbody>";
+
+                            // Determinar as colunas de segunda a sexta
+                            const cabecalhoNormalizado = linhasTabela[indiceCabecalho].map(c => normalizarTexto(String(c)));
+                            const indicesDiasUteis = [];
+
+                            diasEsperados.forEach(dia => {
+                                const indexDia = cabecalhoNormalizado.findIndex(cel => cel.includes(dia));
+                                if (indexDia !== -1) indicesDiasUteis.push(indexDia);
+                            });
+
+                            linhasTabela.forEach((linha, index) => {
+                                tabelaHorario += "<tr>";
+
+                                indicesDiasUteis.forEach(i => {
+                                    const celula = (linha[i] || "").toString().toLowerCase();
+                                    const isCabecalho = index === indiceCabecalho;
+                                    
+                                    const valoresValidos = ["", "manhã", "manha", "tarde", "noite"];
+                                    const deveDestacar = !valoresValidos.includes(celula);
+
+                                    if (isCabecalho) {
+                                        tabelaHorario += `<th>${linha[i] || ""}</th>`;
+                                    } else {
+                                        const conteudo = linha[i] || "";
+                                        tabelaHorario += `<td${deveDestacar ? ' style="background-color: yellow; font-weight: bold;"' : ''}>${conteudo}</td>`;
+                                    }
+                                });
+                                tabelaHorario += "</tr>";
+                            });
+                            tabelaHorario += "</tbody></table>";
+                        }
+
+                        const bloco = `
+                            <div class="curso-bloco">
+                                <div class="info">
+                                    <span><strong>Curso:</strong> ${curso}</span>
+                                    <span><strong><u><span class="coordenador"> ${coordenador}</u></strong></span></span>
+                                </div>
+                                ${tabelaHorario}
+                            </div>
+                        `;
+                        resultadoDiv.innerHTML += bloco;
+                    });
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar o arquivo Excel:', error);
+                });
+        });
+    </script>
+</body>
+</html>
