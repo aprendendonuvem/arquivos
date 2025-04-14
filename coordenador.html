@@ -6,17 +6,29 @@
     <title>Leitura Excel com Fetch</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
     <style>
-        body {font-family: Arial, sans-serif;margin: 20px;background: #f5f5f5;font-size: small;}
+        *{ background-color: #121212;color: white;}
+        body {font-family: Arial, sans-serif;margin: 20px;font-size: small;}
         h1 {color: #2c3e50;}
         input[type="file"] {margin-bottom: 20px;}
-        #resultado{ display: flex; flex-wrap: wrap;}
-        .curso-bloco {margin-bottom: 40px;padding: 20px;background: #ffffff;border-radius: 10px;box-shadow: 0 0 10px rgba(0,0,0,0.1);width: 420px;}
+        #resultado{ display: flex; flex-wrap: wrap; justify-content: center;}
+        .curso-bloco {margin: 10px;padding: 20px;border-radius: 10px;background-color: #0e0f0e;box-shadow: 0 0 10px rgba(216, 184, 184, 0.1);width: 420px;}
         .info {margin-bottom: 15px;}
         .info span {display: block;font-weight: bold;margin-bottom: 4px;}
         table {width: 400px;border-collapse: collapse;margin-top: 10px;}
         th, td {border: 1px solid #ccc;padding: 8px;text-align: center;}
-        th {background-color: #6BBF59;color: white;}
+        th {background-color: #6BBF59;}
         .coordenador{ font-size: larger;}
+        input, select, button {
+      background-color: #2a2a2a;
+      color: white;
+      border: 1px solid #555;
+      border-radius: 4px;
+      padding: 6px;
+      margin-right: 10px;
+    }
+    input::placeholder {
+      color: #aaa;
+    }
       </style>
 </head>
 <body>
@@ -137,7 +149,7 @@
                                         tabelaHorario += `<th>${linha[i] || ""}</th>`;
                                     } else {
                                         const conteudo = linha[i] || "";
-                                        tabelaHorario += `<td${deveDestacar ? ' style="background-color: yellow; font-weight: bold;"' : ''}>${conteudo}</td>`;
+                                        tabelaHorario += `<td${deveDestacar ? ' style="background-color: grey;color:black; font-weight: bold;"' : ''}>${conteudo}</td>`;
                                     }
                                 });
                                 tabelaHorario += "</tr>";
