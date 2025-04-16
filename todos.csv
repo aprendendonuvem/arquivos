@@ -168,8 +168,8 @@ Física;História;Matemática;Português;Geografia;8h00 - 8h50
 Oscar;Edson;Solange;Noceilma;Leandro Nieves;
 Legislação Empresarial;Português;Educação Física;Inglês;Artes;8h50 - 9h40
 Leandro Dias;Noceilma;Francisco;Delcimário;Letícia;
-;;;;;9h40 - 10h00
 Legislação Empresarial;Português;Educação Física;Inglês;Artes;10h00 - 10h50
+Leandro Dias;Noceilma;Francisco;Delcimário;Letícia;
 D.A.M.P.C. / P.I. I;P.O.R.A.;Biologia;P.I. I / D.A.M.P.C.;Química;10h50 - 11h40
 Letícia de Jesus / Elaine;Luciane;Silvério;Leandro / Rodrigo;Marcos;
 D.A.M.P.C. / P.I. I;P.O.R.A.;Biologia;P.I. I / D.A.M.P.C.;Química;11h40- 12h30
@@ -182,8 +182,8 @@ P.I II / A.I ;Português;Matemática;Inglês;Física;8h00 - 8h50
 Luciane /Neto;Nanci;Gabriela;Delcimário;Oscar;
 A.I / P.I II;História;Biologia;Matemática;Geografia;8h50 - 9h40
 Neto / Elaine;Edson;Silvério;Gabriela;Leandro Nieves;
-;;;;;9h40 - 10h00
 A.I / P.I II;História;Biologia;Geografia;C.P.O.C;10h00 - 10h50
+Neto / Elaine;Edson;Silvério;Leandro Nieves;Wesley;
 Educação Física;Educação Física;P.O.R.D.P;Português;C.P.O.C;10h50 - 11h40
 Francisco;Francisco;Emerson / Wesley;Nanci;Wesley;
 Química;Química;P.O.R.D.P;Filosofia;C.P.O.C;11h40- 12h30
@@ -196,8 +196,8 @@ Admin. Recursos Humanos;Inglês;P.L.E;Espanhol;Matemática;8h00 - 8h50
 Emerson;Delcimário;Hemilie;Nilda;Emile;
 Admin. Produção e Serviço;P.D.T.C.C./T.I;Sociologia;Português;Matemática;8h50 - 9h40
 Wesley;Hemilie/Thamiris;Fabiana;Noceilma;Emile;
-;;;;;9h40 - 10h00
 Admin. Produção e Serviço;P.D.T.C.C./T.I;D.M.N./P.D.T.C.C.;Português;Português;10h00 - 10h50
+Wesley;Hemilie/Thamiris;Luciane/Hemilie;Noceilma;Noceilma;
 Adm. Financeira e Orçamentária;E.E.M.C.I.;D.M.N./P.D.T.C.C.;T.I/D.M.N.;Estudos da Adm. Pública;10h50 - 11h40
 Leandro Dias;Leandro;Luciane/Hemilie;Sérgio/Luciane;Lígia;
 Adm. Financeira e Orçamentária;E.E.M.C.I.;ECO;T.I/D.M.N.;Estudos da Adm. Pública;11h40- 12h30
@@ -210,8 +210,8 @@ Matemática;Educação Física;Biologia;P.I. I/ A.I;Artes;8h00 - 8h50
 Solange;Francisco;Silvério;Fabiana/ Neto;Letícia;
 Português;Inglês;Matemática;A.I / P.I. I;Português;8h50 - 9h40
 Noceilma;Delcimário;Solange;Neto / Fabiana;Noceilma;
-INTERVALO;;;;;9h40 - 10h00
 Português;Inglês;Introdução ao Marketing;A.I / P.I. I;Química;10h00 - 10h50
+Noceilma;Delcimário;Paula;Neto / Fabiana;Marcos;
 P.M.C.C.;História;Introdução ao Marketing;Geografia;Física;10h50 - 11h40
 Paula;Edson;Paula;Leandro Nieves;Oscar;
 P.M.C.C.;História;Química;Geografia;Física;11h40- 12h30
@@ -224,8 +224,8 @@ I.A.M. / P.I. II;Geografia;Educação Física;Matemática;Química;8h00 - 8h50
 Sérgio / Letícia de Jesus;Leandro Nieves;Francisco;Gabriela;Marcos;
 P.I.II / I.A.M.;Educação Física;E.M.M.N.;P.V.M.;Física;8h50 - 9h40
 Letícia de Jesus / Sérgio;Francisco;Paula;Paula;Oscar;
-INTERVALO;;;;;9h40 - 10h00
 P.I.II / I.A.M.;Matemática;História;P.V.M.;Física;10h00 - 10h50
+Letícia de Jesus / Sérgio;Gabriela;Fabiana;Paula;Oscar;
 Português;Biologia;História;Inglês;I.A.M. / P.I. II;10h50 - 11h40
 Noceilma;Silvério;Fabiana;Delcimário;Sérgio / Letícia de Jesus;
 Português;Biologia;Português;Inglês;Ética;11h40- 12h30
@@ -238,8 +238,8 @@ PDTCC;Matemática;Marketing Digital E-Commerce;Marketing de Relacionamento;Ingl�
 Hemilie;Gabriela Dias;Paula;Leticia Vieira;Delcimário;
 PDTCC;Matemática;Português;Espanhol;Legislação de Mercado;8h50 - 9h40
 Hemilie;Gabriela Dias;Noceilma;Nilda;Regina;
-INTERVALO;;;;;9h40 - 10h00
 Plano de Marketing;Marketing Digital E-Commerce;Português;Espanhol;Legislação de Mercado;10h00 - 10h50
+Letícia Vieira;Paula;Noceilma;Nilda;Regina;
 Plano de Marketing;Canais de Distribuição;Português;Marketing Institucional;Adm. Financeira apl. ao MKT;10h50 - 11h40
 Letícia Vieira;Hemilie;Noceilma;Paula;Leandro;
 Plano de Marketing;Canais de Distribuição;Sociologia;Marketing Institucional;Adm. Financeira apl. ao MKT;11h40- 12h30
@@ -252,8 +252,8 @@ F.I /I W;Português;A.D. / F.I ;P.A. / P.A.;Artes;13h50 - 14h40
 Neto / Reginaldo;Noceilma;Gabriela  / Elisangelo;Neto / Gabriela;Letícia;
 Química;Português;A.P.W / A.D.;P.A. / P.A.;Matemática;14h40 - 15h30
 Marcos;Noceilma;Elisangelo / Gabriela;Neto / Gabriela;Marília;
-INTERVALO;;;;;15h30 - 15h50
 Química;Inglês;A.P.W / A.D.;Física;Matemática;15h50 - 16h40
+Marcos;Cibelle;Elisangelo / Gabriela;Marcos;Marília;
 Educação Física;Inglês;I.W. / A.P.W;Física;Biologia;16h40 - 17h30
 Francisco;Cibelle;Gabriela / Neto;Marcos;Silvério;
 Educação Física;Matemática;I.W. / A.P.W;E.C.O;Biologia;17h30 - 18h20
@@ -266,8 +266,8 @@ Inglês;História;Matemática;Educação Física;Geografia;13h50 - 14h40
 Cibelle;Fabiana;Marília;Francisco;Leandro Nieves;
 D.D.M/ BANCO DE DADOS. ;S.W I / Comp. em Nuvem;Português;Física;Biologia;14h40 - 15h30
   Flávio / Reginaldo;Flávio / Gabriela;Noceilma;Vinícius LIma;Silvério;
-INTERVALO;;;;;15h30 - 15h50
 D.D.M/ BANCO DE DADOS. ;S.W I / Comp. em Nuvem;Português;Matemática;Biologia;15h50 - 16h40
+  Flávio / Reginaldo;Flávio / Gabriela;Noceilma;Marília;Silvério;
 Química;BANCO DE DADOS. / I.W II;Português;I.W II / S.W.I;Comp. em Nuvem / D.D.M;16h40 - 17h30
 Marcos;  Reginaldo / Gabriela;Noceilma;Gabriela / Flávio;Gabriela / Flávio;
 Química;BANCO DE DADOS. / I.W II;Física;I.W II / S.W.I;Comp. em Nuvem / D.D.M;17h30 - 18h20
@@ -280,8 +280,8 @@ COMP. NUVEM/ G.C.W;Matemática;  PDTCC / USAB. E A.DIG;Espanhol;USAB. E A. DIG/ 
 Gabriela/ Sérgio;Marília;Neto/ Thamires;Nilda;Thamires / ;
 G.C.W/ PDTCC;Sociologia; PDTCC / USAB. E A.DIG;D.D.M II / D.D.M II;S.W II/ COMP. NUVEM;14h40 - 15h30
 Sérgio / Neto;Fabiana;Neto / Thamires;Flávio / ;Elisângelo / Gabriela;
-INTERVALO;;;;;15h30 - 15h50
 E.C.O;Filosofia;Matemática;Geografia;S.W II/ COMP. NUVEM;15h50 - 16h40
+Altamir;Fabiana;Marília;Leandro Nieves;Elisângelo / Gabriela;
 História;D.D.M II / S.W II;Matemática;Geografia;Inglês ;16h40 - 17h30
 Fabiana;Flávio/  ;Marília;Leandro Nieves;Delcimário;
 História;D.D.M II / S.W II;Português;Português;Português;17h30 - 18h20
@@ -294,8 +294,8 @@ Educação Física;Geografia;Matemática;P.I  I / D.A.M.P.C ;Química;13h50 - 14
 Francisco;Leandro Nieves;Solange; Andréia Peratelli / Paula ;Marcos;
 Legislação Empresarial;P.O.R.A;Matemática;Português;Biologia;14h40 - 15h30
 Andréia Peratelli;Wesley Aguiar;Solange;Noceilma;Marcos Puerta;
-;;;;;15h30 - 15h50
 Legislação Empresarial;P.O.R.A;Física;Português;Biologia;15h50 - 16h40
+Andréia Peratelli;Wesley Aguiar;Oscar;Noceilma;Marcos Puerta;
 Artes;História;D.A.M.P.C / P.I  I;Português;Inglês;16h40 - 17h30
 Letícia;Josinaldo;Paula/ Andréia Peratelli;Noceilma;Cibelle;
 Artes;História;D.A.M.P.C / P.I  I;Física;Inglês;17h30 - 18h20
@@ -308,8 +308,8 @@ A.I / PORDP;História;CPOC;Matemática;PORDP / P.I II ;13h50 - 14h40
 Andréia Salmazo / Emerson;Edson;Andréia Peratelli;Solange;Emerson / Paula ;
  P.I II / A.I;Filosofia;CPOC;Matemática;Química;14h40 - 15h30
 Paula / Andréia Salmazo;Edson;Andréia Peratelli;Solange;Marcos;
-;;;;;15h30 - 15h50
  P.I II / A.I;Geografia;Português;Inglês;Química;15h50 - 16h40
+Paula / Andréia Salmazo;Leandro Nieves;Nanci;Cibelle;Marcos;
 Física;Geografia;Português;Inglês;Biologia;16h40 - 17h30
 Oscar;Leandro Nieves;Nanci;Cibelle;Marcos Puerta;
 Física;Educação Física;Português;Educação Física;Biologia;17h30 - 18h20
