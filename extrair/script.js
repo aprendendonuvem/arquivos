@@ -29,13 +29,17 @@ function processFile() {
       let numLines = 11;
       let ignoreIndex = 6; // padrão: ignorar linha 7
 
-      if (firstLine.includes("mtec")) {
+      if (firstLine.includes("mtec") && firstLine.includes("noite")) {
         numLines = 15;
-        ignoreIndex = 10; // ignorar linha 11
-      } else if (firstLine.includes("noite")) {
+        ignoreIndex = 6; // MTec + noite → ignora linha 7
+      } else if (firstLine.includes("mtec")) {
         numLines = 15;
-        ignoreIndex = 6; // ignorar linha 7
+        ignoreIndex = 10; // Apenas MTec → ignora linha 11
+      } else {
+        numLines = 11;
+        ignoreIndex = 6; // Outros casos → ignora linha 7
       }
+      
 
       const limitedData = jsonData.slice(0, numLines).filter((_, idx) => idx !== ignoreIndex);
 
