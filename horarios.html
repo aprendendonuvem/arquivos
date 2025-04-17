@@ -236,7 +236,16 @@
       pointer-events: none;
       animation: andarPersonagemReto .5s linear forwards;
     }
-
+   .personagem-andando-reto2 {
+      position: fixed;
+      width: 150px;
+      height: auto;
+      left: 100vw;
+      top: 92vh; /* Altura fixa */
+      z-index: 9999;
+      pointer-events: none;
+      animation: andarPersonagemReto .4s linear forwards;
+    }
     .bemvindo-container {
       position: fixed;
       top: 50%;
@@ -583,7 +592,7 @@
       // personagem4.src = 'giphy.gif';
       personagem4.src = 'https://aprendendonuvem.github.io/arquivos/TEVZDkBun2r2XG6Nhv.webp';
       // personagem4.src = 'wccIUYS5JSG1Dv4ftk.webp';
-      personagem4.className = 'personagem-andando-reto';
+      personagem4.className = 'personagem-andando-reto2';
 
       document.body.appendChild(personagem4);
 
