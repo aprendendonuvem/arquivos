@@ -309,7 +309,7 @@
     let todasTurmas = [];
 
     async function carregarHorarios() {
-      const response = await fetch("https://aprendendonuvem.github.io/arquivos/todosHoje.csv");
+      const response = await fetch("https://aprendendonuvem.github.io/arquivos/todos.csv");
       const texto = await response.text();
       const linhas = texto.split('\n').map(l => l.trim()).filter(l => l);
 
