@@ -20,7 +20,7 @@ LTT;Processos Administrativos em Recursos Humanos;Processos Comerciais;Custos, P
 Cibelle;Camila;Juliano Miola;;Rodrigo Bonfim;
 2º Administração - Alv. Machado ;;Coordenador:  Renato;;Ext. EMEIF Álvares Machado;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-Administração Mercadológica;Planejamento Empresarial;Custos, Processos e Operações Contábeis;Desenvolvimento de Modelo de Negócios;LTT;18:50 - 20:42
+Administração Mercadológica;Legislação Empresarial;Custos, Processos e Operações Contábeis;Desenvolvimento de Modelo de Negócios;LTT;18:50 - 20:42
 Juliano Miola;Antônio Leonardo;Elaine Ziemba;Luciane Beckner;Cibelle;
 Administração Mercadológica;Legislação Empresarial;Custos, Processos e Operações Contábeis;Desenvolvimento de Modelo de Negócios;LTT;
 Juliano Miola;Antônio Leonardo;Elaine Ziemba;Luciane Beckner;Cibelle;
@@ -41,9 +41,9 @@ Cláudia;Luciane Beckner;;Rodrigo Bonfim;Juliano Nicoluci;
 2º Administração ;;Coordenador: Hemilie;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Processos Comerciais;Desenvolvimento de Modelo de Negócios;PTCC;LTT;Custos, Processos e Operações Contábeis;18:50 - 20:42
-;Renata Barbieri;Hemilie;Cibelle; Leandro ;
+Gerusa;Renata Barbieri;Hemilie;Cibelle; Leandro ;
 Processos Comerciais;Desenvolvimento de Modelo de Negócios;PTCC;LTT;Custos, Processos e Operações Contábeis;
-;Renata Barbieri;Hemilie;Cibelle; Leandro ;
+Gerusa;Renata Barbieri;Hemilie;Cibelle; Leandro ;
 Desenvolvimento de Modelo de Negócios;Administração Mercadológica;Custos, Processos e Operações Contábeis;Legislação Empresarial;Processos Administrativos em Recursos Humanos;21:00 - 22:52
 Renata Barbieri;Juliano Miola; Leandro ;Antônio Leonardo;Luciane;
 Desenvolvimento de Modelo de Negócios;Administração Mercadológica;Custos, Processos e Operações Contábeis;Legislação Empresarial;Processos Administrativos em Recursos Humanos;
@@ -71,13 +71,13 @@ Dhiego;Dhiego;Antônio Leonardo;Renata Barbieri;Cibelle;
 1º Transações Imobiliárias;;Coordenador: Rafael Bento;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Legislação e Contratos Imobiliários;Direito Imobiliário;Op. Imobiliárias/Aplicativos Informatizados;Direito Imobiliário;Aplicativos Informatizados / Op. Imobiliárias;18:50 - 20:42
-Fernanda;Lígia;Gerusa / Sidnei;Lígia;Reginaldo/ ;
+Fernanda;Lígia;Gerusa / Sidnei;Lígia;Reginaldo/ Cristiano;
 Legislação e Contratos Imobiliários;Direito Imobiliário;Op. Imobiliárias/Aplicativos Informatizados;Direito Imobiliário;Aplicativos Informatizados / Op. Imobiliárias;
-Fernanda;Lígia;Gerusa / Sidnei;Lígia;Reginaldo/ ;
+Fernanda;Lígia;Gerusa / Sidnei;Lígia;Reginaldo/Cristiano;
 Etica e Cidadania Organizacional;Operações Imobiliárias;Economia e Mercado Aplicado a Transações Imobiliárias;Legislação e Contratos Imobiliários;LTT;21:00 - 22:52
-Luciane Beckner;Gerusa / ;Silvano;Fernanda;Rafael;
+Luciane Beckner;Gerusa /Cristiano;Silvano;Fernanda;Rafael;
 Etica e Cidadania Organizacional;Operações Imobiliárias;Economia e Mercado Aplicado a Transações Imobiliárias;Legislação e Contratos Imobiliários;LTT;
-Luciane Beckner;Gerusa / ;Silvano;Fernanda;Rafael;
+Luciane Beckner;Gerusa / Cristiano;Silvano;Fernanda;Rafael;
 1º Serviços Jurídicos;;Coordenador:  Lígia;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Teoria Geral do Processo ;Aplicativos Informatizados;Etica e Cidadania Organizacional;Noções de Direito Constitucional;Inglês Instrumental;18:50 - 20:42
@@ -85,9 +85,9 @@ Lígia;Andréia / Reginaldo;Sirpa;Fernanda;Rafael;
 Teoria Geral do Processo ;Aplicativos Informatizados;Etica e Cidadania Organizacional;Noções de Direito Constitucional;Inglês Instrumental;
 Lígia;Andréia / Reginaldo;Sirpa;Fernanda;Rafael;
 Noções de Direito Constitucional;Introdução ao Estudo do Direito;Introdução ao Estudo do Direito;LTT;Procedimentos e Técnicas de Serviços Juídicos;21:00 - 22:52
-Fernanda;Lígia;Lígia;Noceilma;;
+Fernanda;Lígia;Lígia;Noceilma;Cristiano;
 Noções de Direito Constitucional;Introdução ao Estudo do Direito;Introdução ao Estudo do Direito;LTT;Procedimentos e Técnicas de Serviços Jurídicos;
-Fernanda;Lígia;Lígia;Noceilma;;
+Fernanda;Lígia;Lígia;Noceilma;Cristiano;
 2º Multimídia;;Coordenador: Hemilie;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Produção Multimídia II;PTCC;Produção Multimídia II;Navegação, Usabilidade e Arquitetura da Navegação;Influências dos Movimentos Históricos e Visuais Brasileiros;18:50 - 20:42
@@ -114,42 +114,42 @@ Segurança da Informação;Internet das Coisas;Internet das Coisas;LTT;Análise 
 Reginaldo;Flávio;Flávio;Noceilma;Elisângelo;
 Segurança da Informação;Internet das Coisas;Internet das Coisas;LTT;Análise e Desempenho;
 Reginaldo;Flávio;Flávio;Noceilma;Elisângelo;
-Projeto de Redes II;Segurança da Informação;DTCC;Estrutura de Redes III;Protocolos de Comunicação III;21:00 - 22:52
-Vinicius;Reginaldo;Reginaldo;Thamires;Gabriela Alves;
-Projeto de Redes II;Segurança da Informação;DTCC;Estrutura de Redes III;Protocolos de Comunicação III;
-Vinicius;Reginaldo;Reginaldo;Thamires;Gabriela Alves;
+Estrutura de Redes III;Segurança da Informação;DTCC;Projeto de Redes II;Protocolos de Comunicação III;21:00 - 22:52
+Thamires;Reginaldo;Reginaldo;Vinicius;Gabriela Alves;
+Estrutura de Redes III;Segurança da Informação;DTCC;Projeto de Redes II;Protocolos de Comunicação III;
+Thamires;Reginaldo;Reginaldo;Vinicius;Gabriela Alves;
 1º MTec Administração - noite;;Coordenador: Silvério;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Legis. Empresarial (ANP);Legis. Empresarial (ANP);Geografia (ANP);Geografia (ANP);História (ANP);17h40- 18h30
-Leandro Dias;Leandro Dias;Leandro Nieves;Leandro Nieves;;
+Leandro Dias;Leandro Dias;Leandro Nieves;Leandro Nieves;Fabiana;
 D.A.M.P.C. (A) / P.I. I  (B);P.O.R.A;Biologia;Biologia;Matemática;18h30 - 19h20
 Gislaine / Hemilie;Hemilie;Silvério;Silvério;Eduardo;
 D.A.M.P.C. (A) / P.I. I   (B);P.O.R.A;Química;Educação Física;Matemática;19h20 - 20h10
 Gislaine / Hemilie;Hemilie;Marcos ;Geise Mara;Eduardo;
 P.I I (A) / D.A.M.P.C. (B);Português;Química;Educação Física;Matemática;20h10 - 21h
-Paula / Gislaine;Rafael;Marcos ;Geise Mara;Eduardo;
+Cristiano / Gislaine;Rafael;Marcos ;Geise Mara;Eduardo;
 P.I I (A) / D.A.M.P.C. (B);Português;Inglês;Física;Artes;21h10 - 22h
-Paula / Gislaine;Rafael;Rafael;Eduardo;Marcelo Salati;
+Cristiano / Gislaine;Rafael;Rafael;Eduardo;Marcelo Salati;
 História (ANP);Português;Inglês;Física;Artes;22h - 22h50
-;Rafael;Rafael;Eduardo;Marcelo Salati;
+Fabiana;Rafael;Rafael;Eduardo;Marcelo Salati;
 2º MTec Administração - noite;;Coordenador: Silvério;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-Aplicativos Imform. (ANP);Química (ANP);Biologia (ANP);Química (ANP);Biologia (ANP);17h40- 18h30
-Andréia;Marcos;Silvério;Marcos;Silvério;
-Matemática;Português;Inglês;Filosofia;História;18h30 - 19h20
-Eduardo;Rafael;Rafael;Arleto;;
+Biologia (ANP);Química (ANP);Biologia (ANP);Química (ANP);Aplicativos Inform. (ANP);17h40- 18h30
+Silvério;Marcos;Silvério;Marcos;Andréia;
+Matemática;Português;Inglês;Geografia;História;18h30 - 19h20
+Eduardo;Rafael;Rafael;Leandro Nieves;;
 Português;P.I II (A) / PORDP (B);Inglês;Matemática;História;19h20 - 20h10
 Rafael;Gislaine / Leandro;Rafael;Eduardo;;
 Português;P.I II (A) / PORDP (B);C.P.O.C;Matemática;Educação Física;20h10 - 21h
 Rafael;Gislaine / Leandro;Leandro;Eduardo;Francisco;
 C.P.O.C;Geografia;Física;PORDP (A) / P.I II (B);Educação Física;21h10 - 22h
-Leandro;Leandro Nieves;Marcos;Leandro / Gislaine;Francisco;
-C.P.O.C;Geografia;Física;PORDP (A) / P.I II (B);Aplicativos Inform. (ANP);22h - 22h50
-Leandro;Leandro Nieves;Marcos;Leandro / Gislaine;Andréia;
+Leandro;Leandro Nieves;Marcos;Leandro / Cristiano;Francisco;
+C.P.O.C;Filosofia;Física;PORDP (A) / P.I II (B);Aplicativos Inform. (ANP);22h - 22h50
+Leandro;Arleto;Marcos;Leandro / Cristiano;Andréia;
 3º MTec Administração - noite;;Coordenador: Silvério;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Língua Inglesa (ANP);Língua Inglesa (ANP);PTCC;PTCC;Sociologia (ANP);17h40- 18h30
-Delcimário;Delcimário;Silvano;Silvano;Arleto;
+Delcimário;Delcimário;Silvano;Silvano;Fabiana;
 Matemática;Processos Logisticos;Tecnologia da Informação;Português;Espanhol;18h30 - 19h20
 Gabriela Furlan;Isabela;Elisângelo;Rafael;Nilda;
 Matemática;Processos Logisticos;Tecnologia da Informação;Português;Espanhol;19h20 - 20h10
@@ -190,14 +190,14 @@ Química;Química;P.O.R.D.P;Filosofia;C.P.O.C;11h40- 12h30
 Marcos;Marcos;Emerson / Camila;Fabiana;Cláudia;
 3º MTec Administração (Manhã);;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-Admin. Recursos Humanos;Inglês;P.L.E;Espanhol;Matemática;7h10 - 8h00
-Emerson;Delcimário;Hemilie;Nilda;Emile;
-Admin. Recursos Humanos;Inglês;P.L.E;Espanhol;Matemática;8h00 - 8h50
-Emerson;Delcimário;Hemilie;Nilda;Emile;
-Admin. Produção e Serviço;P.D.T.C.C./T.I;Sociologia;Português;Matemática;8h50 - 9h40
-Gerusa;Hemilie/Thamiris;Fabiana;Noceilma;Emile;
-Admin. Produção e Serviço;P.D.T.C.C./T.I;D.M.N./P.D.T.C.C.;Português;Português;10h00 - 10h50
-Gerusa;Hemilie/Thamiris;Luciane/Hemilie;Noceilma;Noceilma;
+Admin. Recursos Humanos;Inglês;P.D.T.C.C./T.I;Espanhol;Matemática;7h10 - 8h00
+Emerson;Delcimário;Hemilie/Thamires;Nilda;Emile;
+Admin. Recursos Humanos;Inglês;P.D.T.C.C./T.I;Espanhol;Matemática;8h00 - 8h50
+Emerson;Delcimário;Hemilie/Thamires;Nilda;Emile;
+Admin. Produção e Serviço;P.L.E;Sociologia;Português;Matemática;8h50 - 9h40
+Gerusa;Hemilie;Fabiana;Noceilma;Emile;
+Admin. Produção e Serviço;P.L.E;D.M.N./P.D.T.C.C.;Português;Português;10h00 - 10h50
+Gerusa;Hemilie;Luciane/Hemilie;Noceilma;Noceilma;
 Adm. Financeira e Orçamentária;E.E.M.C.I.;D.M.N./P.D.T.C.C.;T.I/D.M.N.;Estudos da Adm. Pública;10h50 - 11h40
 Leandro Dias;Leandro;Luciane/Hemilie;Sérgio/Luciane;Lígia;
 Adm. Financeira e Orçamentária;E.E.M.C.I.;ECO;T.I/D.M.N.;Estudos da Adm. Pública;11h40- 12h30
@@ -211,39 +211,39 @@ Solange;Noceilma;Silvério;Fabiana/ Neto;Letícia;
 Português;Inglês;Matemática;A.I / P.I. I;Educação Física;8h50 - 9h40
 Noceilma;Delcimário;Solange;Neto / Fabiana;Francisco;
 Português;Inglês;Introdução ao Marketing;A.I / P.I. I;Química;10h00 - 10h50
-Noceilma;Delcimário;Paula;Neto / Fabiana;Marcos;
+Noceilma;Delcimário;Rodrigo;Neto / Fabiana;Marcos;
 P.M.C.C.;História;Introdução ao Marketing;Geografia;Física;10h50 - 11h40
-Paula;Edson;Paula;Leandro Nieves;Oscar;
+;Edson;Rodrigo;Leandro Nieves;Oscar;
 P.M.C.C.;História;Química;Geografia;Física;11h40- 12h30
-Paula;Edson;Marcos;Leandro Nieves;Oscar;
+;Edson;Marcos;Leandro Nieves;Oscar;
 2º MTec Marketing - Manhã;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 E.M.M.N.;Geografia;Filosofia;Matemática;Química;7h10 - 8h00
-Paula;Leandro Nieves;Fabiana;Gabriela;Marcos;
+Cláudia;Leandro Nieves;Fabiana;Gabriela;Marcos;
 I.A.M. / P.I. II;Geografia;Educação Física;Matemática;Química;8h00 - 8h50
 Sérgio / Letícia de Jesus;Leandro Nieves;Francisco;Gabriela;Marcos;
 P.I.II / I.A.M.;Educação Física;E.M.M.N.;P.V.M.;Física;8h50 - 9h40
-Letícia de Jesus / Sérgio;Francisco;Paula;Paula;Oscar;
+Letícia de Jesus / Sérgio;Francisco;Cláudia;;Oscar;
 P.I.II / I.A.M.;Matemática;História;P.V.M.;Física;10h00 - 10h50
-Letícia de Jesus / Sérgio;Gabriela;Fabiana;Paula;Oscar;
+Letícia de Jesus / Sérgio;Gabriela;Fabiana;;Oscar;
 Português;Biologia;História;Inglês;I.A.M. / P.I. II;10h50 - 11h40
 Noceilma;Silvério;Fabiana;Delcimário;Sérgio / Letícia de Jesus;
 Português;Biologia;Português;Inglês;Ética;11h40- 12h30
-Noceilma;Silvério;Noceilma;Delcimário;Paula;
+Noceilma;Silvério;Noceilma;Delcimário;Camila;
 3º MTec Marketing - Manhã;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 PDTCC;Matemática;Marketing Digital E-Commerce;Marketing de Relacionamento;Inglês;7h10 - 8h00
-Hemilie;Emile Matheus;Paula;Leticia Vieira;Delcimário;
+Hemilie;Emile Matheus;;Leticia Vieira;Delcimário;
 PDTCC;Matemática;Marketing Digital E-Commerce;Marketing de Relacionamento;Inglês;8h00 - 8h50
-Hemilie;Emile Matheus;Paula;Leticia Vieira;Delcimário;
+Hemilie;Emile Matheus;;Leticia Vieira;Delcimário;
 PDTCC;Matemática;Português;Espanhol;Legislação de Mercado;8h50 - 9h40
 Hemilie;Emile Matheus;Noceilma;Nilda;Lígia;
 Plano de Marketing;Marketing Digital E-Commerce;Português;Espanhol;Legislação de Mercado;10h00 - 10h50
-Letícia Vieira;Paula;Noceilma;Nilda;Lígia;
+Letícia Vieira;;Noceilma;Nilda;Lígia;
 Plano de Marketing;Canais de Distribuição;Português;Marketing Institucional;Adm. Financeira apl. ao MKT;10h50 - 11h40
-Letícia Vieira;;Noceilma;Paula;Leandro;
+Letícia Vieira;Letícia Vieira;Noceilma;;Leandro;
 Plano de Marketing;Canais de Distribuição;Sociologia;Marketing Institucional;Adm. Financeira apl. ao MKT;11h40- 12h30
-Letícia Vieira;;Fabiana;Paula;Leandro;
+Letícia Vieira;Letícia Vieira;Fabiana;;Leandro;
 1º MTec Informática para Internet - Tarde;;Coordenador: Marília;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 F.I /I W;Português;A.D. / F.I ;P.A. / P.A.;Artes;13h - 13h50
@@ -257,7 +257,7 @@ Marcos;Cibelle;Elisangelo / Gabriela;Marcos;Marília;
 Educação Física;Inglês;I.W. / A.P.W;Física;Biologia;16h40 - 17h30
 Francisco;Cibelle;Vinicius / Neto;Marcos;Silvério;
 Educação Física;Matemática;I.W. / A.P.W;E.C.O;Biologia;17h30 - 18h20
-Francisco;Marília;Vinicius / Neto;Luciane;Silvério;
+Francisco;Marília;Vinicius / Neto;Hemilie;Silvério;
 2º MTec Informática para Internet - Tarde;;Coordenador: Marília;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Inglês;História;Fisica;Educação Física;Geografia;13h - 13h50
@@ -269,17 +269,17 @@ D.D.M/ BANCO DE DADOS. ;S.W I / Comp. em Nuvem I;Português;Matemática;Biologia
 D.D.M/ BANCO DE DADOS. ;S.W I / Comp. em Nuvem I;Português;Matemática;Biologia;15h50 - 16h40
   Flávio / Reginaldo;Flávio / Vinicius;Noceilma;Marília;Silvério;
 Química;BANCO DE DADOS. / I.W II;Português;I.W II / S.W.I;Comp. em Nuvem I / D.D.M;16h40 - 17h30
-Marcos;  Reginaldo / Elisângelo;Noceilma;Vinicius / Flávio;Neto / Flávio;
+Marcos;  Reginaldo / Elisângelo;Noceilma;Vinicius / Flávio;Gabriela / Flávio;
 Química;BANCO DE DADOS. / I.W II;Matemática;I.W II / S.W.I;Comp. em Nuvem I / D.D.M;17h30 - 18h20
-Marcos;  Reginaldo / Elisângelo;Marília;Vinicius / Flávio;Neto / Flávio;
+Marcos;  Reginaldo / Elisângelo;Marília;Vinicius / Flávio;Gabriela / Flávio;
 3º MTec Informática para Internet - Tarde;;Coordenador: Marília;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-COMP. NUVEM II/ G.C.W;Inglês ;G.C.W/ PDTCC;Espanhol;USAB. E A. DIG/ S.W. II;13h00 - 13h50
-Gabriela/ Sérgio;Delcimário;Sérgio / Neto;Nilda;Vinicius / Thamires;
+COMP. NUVEM II/ D.D.M II;Inglês ;G.C.W/ PDTCC;Espanhol;USAB. E A. DIG/ S.W. II;13h00 - 13h50
+Gabriela/ Vinicius;Delcimário;Sérgio / Neto;Nilda;Vinicius / Thamires;
 COMP. NUVEM II/ G.C.W;Inglês ;  PDTCC / USAB. E A.DIG;Espanhol;USAB. E A. DIG/S.W. II;13h50 - 14h40
 Gabriela/ Sérgio;Delcimário;Neto/ Vinicius;Nilda;Vinicius / Thamires;
-G.C.W/ PDTCC;Sociologia; PDTCC / USAB. E A.DIG;D.D.M II / D.D.M II;S.W II/ COMP. NUVEM;14h40 - 15h30
-Sérgio / Neto;Fabiana;Neto / Vinicius;Flávio / Vinicius;Elisângelo / Gabriela;
+G.C.W/ PDTCC;Sociologia; PDTCC / USAB. E A.DIG;D.D.M II / G.C.W;S.W II/ COMP. NUVEM;14h40 - 15h30
+Sérgio / Neto;Fabiana;Neto / Vinicius;Flávio / Sérgio;Elisângelo / Gabriela;
 E.C.O;Filosofia;Matemática;Geografia;S.W II/ COMP. NUVEM;15h50 - 16h40
 Cláudia;Fabiana;Marília;Leandro Nieves;Elisângelo / Gabriela;
 História;D.D.M II / D.D.M II;Matemática;Geografia;Matemática;16h40 - 17h30
@@ -289,28 +289,28 @@ Fabiana;Flávio/  Vinicius;Rafael;Rafael;Rafael;
 1º MTEC/AMS Administração - Tarde;;Coordenador: Oscar;;Ext. Fatec Presidente Prudente;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Educação Física;Geografia;Matemática;P.I  I / D.A.M.P.C ;Química;13h00 - 13h50
-Francisco;Leandro Nieves;Solange;Letícia Vieira 07/08/ Paula ;Marcos;
+Francisco;Leandro Nieves;Solange;Letícia Vieira 07/08/ ;Marcos;
 Educação Física;Geografia;Matemática;P.I  I / D.A.M.P.C ;Química;13h50 - 14h40
-Francisco;Leandro Nieves;Solange;Letícia Vieira 07/08 / Paula ;Marcos;
+Francisco;Leandro Nieves;Solange;Letícia Vieira 07/08 / ;Marcos;
 Legislação Empresarial;P.O.R.A;Matemática;Português;Biologia;14h40 - 15h30
-Andréia Peratelli;Camila;Solange;Nanci;Patrícia Takata;
+Cristiano;Camila;Solange;Nanci;Patrícia Takata;
 Legislação Empresarial;P.O.R.A;Física;Português;Biologia;15h50 - 16h40
-Andréia Peratelli;Camila;Oscar;Nanci;Patrícia Takata;
+Cristiano;Camila;Oscar;Nanci;Patrícia Takata;
 Artes;História;D.A.M.P.C / P.I  I;Português;Inglês;16h40 - 17h30
-Letícia;Josinaldo;Paula/ Andréia Peratelli;Nanci;Cibelle;
+Letícia;;/ Andréia Peratelli;Nanci;Cibelle;
 Artes;História;D.A.M.P.C / P.I  I;Física;Inglês;17h30 - 18h20
-Letícia;Josinaldo;Paula/ Andréia Peratelli;Oscar;Cibelle;
+Letícia;;/ Andréia Peratelli;Oscar;Cibelle;
 2º MTEC/AMS Administração - Tarde;;Coordenador: Oscar;;Ext. Fatec Presidente Prudente;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 A.I / PORDP;História;CPOC;Matemática;PORDP / P.I II ;13h00 - 13h50
-Andréia Salmazo / Emerson;Edson;Wesley;Solange;Emerson / Paula ;
+Andréia Salmazo / Emerson;Edson;Wesley;Solange;Emerson / ;
 A.I / PORDP;História;CPOC;Matemática;PORDP / P.I II ;13h50 - 14h40
-Andréia Salmazo / Emerson;Edson;Wesley;Solange;Emerson / Paula ;
+Andréia Salmazo / Emerson;Edson;Wesley;Solange;Emerson /  ;
 Física;Filosofia;CPOC;Matemática;Química;14h40 - 15h30
 Oscar;Edson;Wesley;Solange;Marcos;
 Física;Educação Física;Português;Inglês;Química;15h50 - 16h40
 Oscar;Francisco;Nanci;Cibelle;Marcos;
 Geografia;P.I  / A.I ;Português;Inglês;Biologia;16h40 - 17h30
-Leandro Nieves;Paula / Andréia Salmazo;Nanci;Cibelle;Patrícia Takata;
+Leandro Nieves; / Andréia Salmazo;Nanci;Cibelle;Patrícia Takata;
 Geografia;P.I  / A.I ;Português;Educação Física;Biologia;17h30 - 18h20
-Leandro Nieves;Paula / Andréia Salmazo;Nanci;Francisco;Patrícia Takata;
+Leandro Nieves; / Andréia Salmazo;Nanci;Francisco;Patrícia Takata;
