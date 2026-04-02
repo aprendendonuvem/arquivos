@@ -1,13 +1,3 @@
-3º Administração - Martinópolis ;;Coordenador: Paula Ariadne;;Ext. EM Francisco Marques Bonilha;
-Segunda;Terça;Quarta;Quinta;Sexta;Horário
-Administração Financeira e Orçamentária;DTCC;Processos Logisticos Empresariais;Comércio Internacional;Inglês Instrumental;18h50 - 20h42
-Matheus Avansini;Camila;Daniela;Juliano Miola;Cibelle;
-Administração Financeira e Orçamentária;DTCC;Processos Logisticos Empresariais;Comércio Internacional;Inglês Instrumental;
-Matheus Avansini;Camila;Daniela;Juliano Miola;Cibelle;
-Administração Financeira e Orçamentária;Processos da Produção de Bens e Serviços;Processos Logisticos Empresariais;Tecnologia da Informação Aplicada à Administração;Administração Pública;21:00 - 22:52
-Matheus Avansini;Camila;Daniela;Juliano Miola;Daniela;
-Administração Financeira e Orçamentária;Processos da Produção de Bens e Serviços;Processos Logisticos Empresariais;Tecnologia da Informação Aplicada à Administração;Administração Pública;
-Matheus Avansini;Camila;Daniela;Juliano Miola;Daniela;
               3º Administração - Pirapozinho;;Coordenadora:  Gerusa;;Ext. Moacyr Teixeira;
 Segunda   ;Terça;Quarta;Quinta;Sexta;Horário
 DTCC;Processos Logisticos Empresariais;Processos da Produção de Bens e Serviços;Administração Financeira e Orçamentária;Administração Pública;18:50 - 20:42
@@ -18,6 +8,16 @@ Inglês Instrumental;Processos Logisticos Empresariais;Tecnologia da Informaçã
 Cibelle;Juliano Miola;Antônio Leonardo;Daniela;Gerusa;
 Inglês Instrumental;Processos Logisticos Empresariais;Tecnologia da Informação Aplicada à Administração;Administração Financeira e Orçamentária;Comércio Internacional;
 Cibelle;Juliano Miola;Antônio Leonardo;Daniela;Gerusa;
+3º Administração - Martinópolis ;;Coordenador: Paula Ariadne;;Ext. EM Francisco Marques Bonilha;
+Segunda;Terça;Quarta;Quinta;Sexta;Horário
+Administração Financeira e Orçamentária;DTCC;Processos Logisticos Empresariais;Comércio Internacional;Inglês Instrumental;18h50 - 20h42
+Matheus Avansini;Camila;Daniela;Juliano Miola;Cibelle;
+Administração Financeira e Orçamentária;DTCC;Processos Logisticos Empresariais;Comércio Internacional;Inglês Instrumental;
+Matheus Avansini;Camila;Daniela;Juliano Miola;Cibelle;
+Administração Financeira e Orçamentária;Processos da Produção de Bens e Serviços;Processos Logisticos Empresariais;Tecnologia da Informação Aplicada à Administração;Administração Pública;21:00 - 22:52
+Matheus Avansini;Camila;Daniela;Juliano Miola;Daniela;
+Administração Financeira e Orçamentária;Processos da Produção de Bens e Serviços;Processos Logisticos Empresariais;Tecnologia da Informação Aplicada à Administração;Administração Pública;
+Matheus Avansini;Camila;Daniela;Juliano Miola;Daniela;
 3º Administração - Álvares Machado;;Coordenador:  João Dal Ponte;;Ext. EMEIF Álvares Machado;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Tecnologia da Informação Aplicada à Administração;Administração Pública;Comércio Internacional;Administração Financeira e Orçamentária;Processos Logisticos Empresariais;18:50 - 20:42
@@ -68,7 +68,7 @@ Marketing Digital e E-Commerce;Canais de Distribuição;Plano de Marketing;DTCC;
 Letícia Vieira;Antônio Leonardo;Rodrigo;Dhiego;Nilda;
 Marketing Digital e E-Commerce;Canais de Distribuição;Plano de Marketing;DTCC;Espanhol Instrumental;
 Letícia Vieira;Antônio Leonardo;Rodrigo;Dhiego;Nilda;
-REESCREVA;;Coordenador: Emerson;;Etec Adolpho Arruda Mello;
+TRANSAÇÕES IMOBILIÁRIAS;;Coordenador: Emerson;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Marketing Imobiliário;Avaliação Mercadológica;DTCC;Planejamento Estratégico e Empreendedor;DTCC;18:50 - 20:42
 Rodrigo;Lígia;Cristiano;Emerson;Cristiano;
@@ -152,40 +152,40 @@ Estudos de Economia e Com. Internacional;Língua Portuguesa;Língua Inglesa (ANP
 Leandro;Rafael Bento;Cibele;Emerson;Cláudia;
 1º MTec Administração - Manhã;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-Proj. de Tecnologia da Informação / PORA;Química;Física;Matemática;Planejamento Empresarial;7h10 - 8h00
-Sérgio / Luciane;Camila Zaniboni;Oscar;Gabriela;Camila;
+Proj. de Tecnologia da Informação / PORA;Química;Educação Física;Matemática;Planejamento Empresarial;7h10 - 8h00
+Sérgio / Luciane;Camila Zaniboni;Francisco;Gabriela;Camila;
 Proj. de Tecnologia da Informação / PORA;Química;Educação Física;PORA / Proj. de Tecnologia da Informação;Planejamento Empresarial;8h00 - 8h50
 Sérgio / Luciane;Camila Zaniboni;Francisco;Luciane / Sérgio;Camila;
-Arte;Educação Física;Português;PORA / Proj. de Tecnologia da Informação;Matemática;8h50 - 9h40
-Michele;Francisco;Noceilma;Luciane / Sérgio;Gabriela;
-Arte;Geografia;Conduta Profissional e Relações do Trabalho;Geografia;Legislação Empresarial;10h00 - 10h50
-Michele;Karin;Luciane;Karin;Leandro;
-Sociologia;História;Biologia;Português;Inglês;10h50 - 11h40
-Kainan;Rafael Perez;Silvério;Noceilma;Delcimário;
-Filosofia;História;Biologia;Física;Inglês;11h40- 12h30
-Kainan;Rafael Perez;Silvério;Oscar;Delcimário;
+Arte;História;Português;PORA / Proj. de Tecnologia da Informação;Matemática;8h50 - 9h40
+Michele;Rafael Perez;Noceilma;Luciane / Sérgio;Gabriela;
+Arte;História;Conduta Profissional e Relações do Trabalho;Geografia;Legislação Empresarial;10h00 - 10h50
+Michele;Rafael Perez;Luciane;Karin;Leandro;
+Sociologia;Geografia;Biologia;Português;Inglês;10h50 - 11h40
+Kainan;Karin;Silvério;Noceilma;Delcimário;
+Filosofia;Física;Biologia;Física;Inglês;11h40- 12h30
+Kainan;Oscar;Silvério;Oscar;Delcimário;
 2º MTec Administração - Manhã;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-Matemática;Física;Educação Física;Inglês;Educação Física;7h10 - 8h00
-Gabriela;Oscar;Francisco;Delcimário;Francisco;
-C.P.O.C;Matemática;Física;Inglês;Português;8h00 - 8h50
-Leandro;Gabriela;Oscar;Delcimário;Noceilma;
-P.I II / A.I;História;Biologia;Matemática;Português;8h50 - 9h40
-Luciane / Camila;Rafael Perez;Silvério;Gabriela;Noceilma;
-P.I II / A.I;História;Biologia;Português;Filosofia;10h00 - 10h50
-Luciane / Camila;Rafael Perez;Silvério;Noceilma;;
-Geografia;Química;A.I / P.O.R.D.P;P.O.R.D.P / P.I II;C.P.O.C;10h50 - 11h40
-Karin;Camila Zaniboni;Celso / Emerson;Camila / Luciane;Leandro;
-Geografia;Química;A.I / P.O.R.D.P;P.O.R.D.P / P.I II;C.P.O.C;11h40- 12h30
-Karin;Camila Zaniboni;Celso / Emerson;Camila / Luciane;Leandro;
+Matemática;Física;Filosofia;Inglês;Educação Física;7h10 - 8h00
+Gabriela;Oscar;kainan;Delcimário;Francisco;
+C.P.O.C;Matemática;Física;Inglês;Educação Física;8h00 - 8h50
+Leandro;Gabriela;Oscar;Delcimário;Francisco;
+P.I II / A.I;Química;Biologia;Matemática;Português;8h50 - 9h40
+Luciane / Camila;Camila Zaniboni;Silvério;Gabriela;Noceilma;
+P.I II / A.I;Química;Biologia;Português;Português;10h00 - 10h50
+Luciane / Camila;Camila Zaniboni;Silvério;Noceilma;Noceilma;
+Geografia;História;A.I / P.O.R.D.P;P.O.R.D.P / P.I II;C.P.O.C;10h50 - 11h40
+Karin;Rafael Perez;Celso / Emerson;Camila / Luciane;Leandro;
+Geografia;História;A.I / P.O.R.D.P;P.O.R.D.P / P.I II;C.P.O.C;11h40- 12h30
+Karin;Rafael Perez;Celso / Emerson;Camila / Luciane;Leandro;
 3º MTec Administração - Manhã;;Coordenador: Sérgio Brugnolo;;Etec Adolpho Arruda Mello;
 marcelo;Terça;Quarta;Quinta;Sexta;Horário
-Admin. Produção e Serviço;Matemática;ECO;Espanhol;Estudos da Adm. Pública;7h10 - 8h00
-Gerusa;Gabriela;Cláudia;Nilda;Lígia;
+Admin. Produção e Serviço;Matemática;Matemática;Espanhol;Estudos da Adm. Pública;7h10 - 8h00
+Gerusa;Gabriela;Gabriela;Nilda;Lígia;
 Admin. Produção e Serviço;Português;Matemática;Espanhol;Estudos da Adm. Pública;8h00 - 8h50
 Gerusa;Noceilma;Gabriela;Nilda;Lígia;
-Administração Financeira e Orçamentária;Português;Matemática;Sociologia;Inglês;8h50 - 9h40
-Leandro Dias;Noceilma;Gabriela;Kainan;Delcimário;
+Administração Financeira e Orçamentária;Português;ECO;Sociologia;Inglês;8h50 - 9h40
+Leandro Dias;Noceilma;Cláudia;Kainan;Delcimário;
 Administração Financeira e Orçamentária;Português;E.E.M.C.I;PDTCC / T.I;Inglês;10h00 - 10h50
 Leandro Dias;Noceilma;Leandro Dias;Leandro / Letícia Vieira;Delcimário;
 Admin. Recursos Humanos;Processos Logisticos Empresariais ;D.M.N / PDTCC;PDTCC / T.I;T. I / D.M.N;10h50 - 11h40
@@ -194,14 +194,14 @@ Admin. Recursos Humanos;Processos Logisticos Empresariais ;D.M.N / PDTCC;E.E.M.C
 Emerson;Daniela;Juliano Miola / Leandro;Leandro Dias;Letícia Vieira / Juliano Miola;
 1º MTec Marketing - Manhã;;Coordenador: Renata ;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-Proj, Tecnologia Informação / Promoção Vendas;História;Sociologia;Biologia;Química;7h10 - 8h00
-Fernando (A) / Haroldo (B);Rafael Perez;Kainan;Patrícia;Marcos;
+Proj, Tecnologia Informação / Promoção Vendas;História;Física;Biologia;Química;7h10 - 8h00
+Fernando (A) / Haroldo (B);Rafael Perez;Oscar;Patrícia;Marcos;
 Proj, Tecnologia Informação / Promoção Vendas;História;Filosofia;Biologia;Química;8h00 - 8h50
 Fernando (A) / Haroldo (B);Rafael Perez;Kainan;Patrícia;Marcos;
-Promoção Vendas / Proj, Tecnologia Informação;Planej. Proc. Comerciais e Téc. de Negociação;Física;Educação Física;Educação Física;8h50 - 9h40
-Haroldo (A) / Fernando (B);Camila;Oscar;Francisco;Francisco;
-Promoção Vendas / Proj, Tecnologia Informação;Matemática;Física;Matemática;Português;10h00 - 10h50
-Haroldo (A) / Fernando (B);Gabriela;Oscar;Gabriela;Noceilma;
+Promoção Vendas / Proj, Tecnologia Informação;Planej. Proc. Comerciais e Téc. de Negociação;Sociologia;Física;Educação Física;8h50 - 9h40
+Haroldo (A) / Fernando (B);Camila;Kainan;Oscar;Francisco;
+Promoção Vendas / Proj, Tecnologia Informação;Matemática;Português;Matemática;Educação Física;10h00 - 10h50
+Haroldo (A) / Fernando (B);Gabriela;Noceilma;Gabriela;Francisco;
 Arte;Inglês;Pesquisa de Mercado e Comp. do Consumidor;Planej Estratégico de Mkt e Comunicação;Geografia;10h50 - 11h40
 Michele;Delcimário;Luciane Beckner;Rodrigo;Karin;
 Arte;Inglês;Pesquisa de Mercado e Comp. do Consumidor;Português;Geografia;11h40- 12h30
@@ -210,29 +210,29 @@ Michele;Delcimário;Luciane Beckner;Noceilma;Karin;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
 Inf. aplicada ao Marketing / Projeto Integrador II;Educação Física;Biologia;Física;Física;7h10 - 8h00
 Rodrigo / Letícia Vieira;Francisco;Silvério;Oscar;Oscar;
-Inf. aplicada ao Marketing / Projeto Integrador II;Educação Física;Biologia;Matemática;Matemática;8h00 - 8h50
-Rodrigo / Letícia Vieira;Francisco;Silvério;Gabriela;Gabriela;
-Projeto Integrador II / Inf. aplicada ao Marketing;Estratégias de Marketing e Modelos de Negócios;Estratégias de Marketing e Modelos de Negócios;Inglês;Química;8h50 - 9h40
-Letícia Viera / Rodrigo;Haroldo;Haroldo;Delcimário;Marcos;
-Projeto Integrador II / Inf. aplicada ao Marketing;Ética e Cidadania Empresarial;Matemática;Inglês;Química;10h00 - 10h50
-Letícia Viera / Rodrigo;Camila;Gabriela;Delcimário;Marcos;
+Inf. aplicada ao Marketing / Projeto Integrador II;Estratégias de Marketing e Modelos de Negócios;Biologia;Matemática;Matemática;8h00 - 8h50
+Rodrigo / Letícia Vieira;Haroldo;Silvério;Gabriela;Gabriela;
+Projeto Integrador II / Inf. aplicada ao Marketing;Estratégias de Marketing e Modelos de Negócios;Matemática;Inglês;Química;8h50 - 9h40
+Letícia Viera / Rodrigo;Haroldo;Gabriela;Delcimário;Marcos;
+Projeto Integrador II / Inf. aplicada ao Marketing;Ética e Cidadania Empresarial;Filosofia;Inglês;Química;10h00 - 10h50
+Letícia Viera / Rodrigo;Camila;Kainan;Delcimário;Marcos;
 Português;Promoção de Vendas e Merchandising;História;Geografia;Português;10h50 - 11h40
 Noceilma;Haroldo;Rafael Perez;Karin;Noceilma;
-Português;Promoção de Vendas e Merchandising;História;Geografia;Filosofia;11h40- 12h30
-Noceilma;Haroldo;Rafael Perez;Karin;;
+Português;Promoção de Vendas e Merchandising;História;Geografia;Educação Física;11h40- 12h30
+Noceilma;Haroldo;Rafael Perez;Karin;Francisco;
 3º MTec Marketing - Manhã;;Coordenador: Renata;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
-Sociologia;Canais de Distribuição;Marketing Institucional;Marketing de Relacionamento;Marketing Digital E-Commerce / PDTCC;7h10 - 8h00
-Kainan;Renata;Haroldo;Letícia Vieira;Paula / Cláudia;
-Matemática;Marketing Institucional;Português;Marketing de Relacionamento;Marketing Digital E-Commerce / PDTCC;8h00 - 8h50
-Gabriela;Haroldo;Noceilma;Letícia Vieira;Paula / Cláudia;
+Sociologia;Marketing Institucional;Marketing Institucional;Marketing de Relacionamento;Marketing Digital E-Commerce / PDTCC;7h10 - 8h00
+Kainan;Haroldo;Haroldo;Letícia Vieira;Paula / Cláudia;
+Matemática;Canais de Distribuição;Português;Marketing de Relacionamento;Marketing Digital E-Commerce / PDTCC;8h00 - 8h50
+Gabriela;Renata;Noceilma;Letícia Vieira;Paula / Cláudia;
 Matemática;Matemática;Canais de Distribuição;Espanhol;Marketing Digital E-Commerce / PDTCC;8h50 - 9h40
 Gabriela;Gabriela;Renata;Nilda;Paula / Cláudia;
-Plano de Marketing ;Administração Financeira Aplicada ao Marketing;PDTCC/ Marketing Digital E-Commerce;Espanhol;Legislação de Mercado;10h00 - 10h50
+Plano de Marketing;Administração Financeira Aplicada ao Marketing;PDTCC/ Marketing Digital E-Commerce;Espanhol;Legislação de Mercado;10h00 - 10h50
 Juliano Miola / Paula;Leandro;Cláudia / Reginaldo;Nilda;Lígia;
-Plano de Marketing ;Administração Financeira Aplicada ao Marketing;PDTCC/ Marketing Digital E-Commerce;Inglês;Legislação de Mercado;10h50 - 11h40
+Plano de Marketing;Administração Financeira Aplicada ao Marketing;PDTCC/ Marketing Digital E-Commerce;Inglês;Legislação de Mercado;10h50 - 11h40
 Juliano Miola / Paula;Leandro;Cláudia / Reginaldo;Delcimário;Lígia;
-Plano de Marketing ;Português;PDTCC/ Marketing Digital E-Commerce;Inglês;Português;11h40- 12h30
+Plano de Marketing;Português;PDTCC/ Marketing Digital E-Commerce;Inglês;Português;11h40- 12h30
 Juliano Miola / Paula;Noceilma;Cláudia / Reginaldo;Delcimário;Noceilma;
 1º MTec Informática para Internet - Tarde;;Coordenador: Marília;;Etec Adolpho Arruda Mello;
 Segunda;Terça;Quarta;Quinta;Sexta;Horário
@@ -241,9 +241,9 @@ Michele;;Nanci;Haroldo / Elisângelo;Oscar;
 Arte;Matemática;Português;Arte Digital / Banco de Dados;Física;13h50 - 14h40
 Michele;;Nanci;Haroldo / Elisângelo;Oscar;
 Química;Geografia;Interfaces Web I;Banco Dados / Arte Digital;Biologia;14h40 - 15h30
-Marcos;Karin;Reginaldo / Rodrigo;Elisangelo / Haroldo;Silvério;
+Marcos;Karin;Reginaldo / Rodrigo;Elisangelo / Haroldo;Fernanda;
 Química;Geografia;Interfaces Web I;Banco Dados / Arte Digital;Biologia;15h50 - 16h40
-Marcos;Karin;Reginaldo / Rodrigo;Elisangelo / Haroldo;Silvério;
+Marcos;Karin;Reginaldo / Rodrigo;Elisangelo / Haroldo;Fernanda;
 P.A. / Projetos Tecnologia;História;Educação Física;Projetos Tecnologia / P.A;Inglês;16h40 - 17h30
 Elisângelo / Vitor;Rafael Perez;Francisco;Vitor / Elisângelo;Cibelle;
 P.A. / Projetos Tecnologia;História;Educação Física;Projetos Tecnologia / P.A;Inglês;17h30 - 18h20
